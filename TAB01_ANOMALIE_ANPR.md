@@ -1,9 +1,9 @@
 # Tabella anomalie ANPR
-[*ritorna al README*](README.md)
+ritorna al [*README*](README.md)
 
 |codice anomalia | messaggio di errore | procedura suggerita|
 | ------------- | ------------- | ------------- |
-|EA001 | Codice fiscale formalmente non corretto | |
+|EA001 | Codice fiscale formalmente non corretto | [Procedura 001](procedure/001.md) |
 |EA002 | Soggetto presente in AT con  DA uguali a quelli del comune ma CF del comune assente | |
 |EA003 | Soggetto presente in AT con  DA uguali a quelli del comune ma CF diverso | |
 |EA029 | Codice fiscale calcolato dai  DA del comune non presente in AT | |
@@ -108,4 +108,4 @@
 |ES092 | Soggetto senza scheda famiglia/convivenza associata | |
 
 
-[*ritorna al README*](README.md)
+ritorna al [*README*](README.md)
