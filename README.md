@@ -30,4 +30,4 @@ I controlli formali realizzati dal sistema ANPR possono determinare l'evidenza d
 
 Per aggevolare le attività dei Comuni per la gestione delle anomalie che possono presentarsi a valle dell'inoltro dei file di subentro al sistema ANPR, si sono individuate una serie di procedure che i Comuni possono adottare per le differenti anomalie che il sistema ANPR segnalera a valle dell'esecuzione dei controlli formali previsti.
 
-Nella [**tabella anomalie ANPR**](TAB01_ANOMALIE_ANPR.md) sono elencate le anomalie che il sistema ANPR rileva e, per ognuna di esse, si riporta il *codice anomalia* che la codifica, il *messaggio di errore* che viene indicato al Comune al riscontro della stessa, la *procedura suggerita* che il Comune può attuare per eliminare l'anomalia riscontrata. 
+Nella [**tabella anomalie ANPR**](TAB01_ANOMALIE_ANPR.md) sono elencate le anomalie che il sistema ANPR rileva e, per ognuna di esse, si riporta il *codice anomalia* che la codifica, il *messaggio di errore* che viene indicato al Comune al riscontro della stessa, la *severità* associata all'anomalia, la *procedura suggerita* che il Comune può attuare per eliminare l'anomalia riscontrata. 
