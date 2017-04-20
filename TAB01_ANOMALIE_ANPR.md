@@ -5,9 +5,9 @@
 
 |codice anomalia | messaggio di errore | severità | procedura suggerita|
 | ------------- | ------------- | ------------- | ------------- |
-|	EA001	|	Codice fiscale formalmente non corretto	| warning da rimuovere prima del subentro | [Procedura_001](procedure/001.md) |
-|	EA002	|	Soggetto presente in AT con  DA uguali a quelli del comune ma CF del comune assente	| warning non bloccanti | [Procedura_002](procedure/002.md) |
-|	EA003	|	Soggetto presente in AT con  DA uguali a quelli del comune ma CF diverso	| warning non bloccanti | [Procedura_002](procedure/002.md) |
+|	EA001	|	Codice fiscale formalmente non corretto	| warning da rimuovere prima del subentro | [Procedura_001](procedure/procedura001.md) |
+|	EA002	|	Soggetto presente in AT con  DA uguali a quelli del comune ma CF del comune assente	| warning non bloccanti | [Procedura_002](procedure/procedura002.md) |
+|	EA003	|	Soggetto presente in AT con  DA uguali a quelli del comune ma CF diverso	| warning non bloccanti | [Procedura_002](procedure/procedura002.md) |
 |	EA029	|	Codice fiscale calcolato dai  DA del comune non presente in AT	| warning non bloccanti | |
 |	EA030	|	CF di un soggetto residente  in piu' comuni	| warning non bloccanti | |
 |	EA031	|	CF di un soggetto residente  sia in Italia che all'estero (AIRE)	| warning da rimuovere prima del subentro | |
@@ -16,7 +16,7 @@
 |	EA040	|	Soggetto registrato piu' volte  sia con il CF collegato che con l'ultimo	| warning non bloccanti | |
 |	EA042	|	Soggetto con sesso non coincidente  con quello presente nel CF	| warning da rimuovere prima del subentro | |
 |	EA047	|	Soggetto presente  nell'archivio AIRE e nel MAE dei cittadini non residenti (IRREPERIBILI, RIMPATRIATI, DECEDUTI,  TRASFERITI)	| warning non bloccanti | |
-|	EA048	|	Codice fiscale formalmente errato	| warning da rimuovere prima del subentro | [Procedura_001](procedure/001.md) |
+|	EA048	|	Codice fiscale formalmente errato	| warning da rimuovere prima del subentro | [Procedura_001](procedure/procedura001.md) |
 |	EC001	|	Codice stato civile [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | |
 |	EC002	|	Codice relazione di parentela [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | |
 |	EC003	|	Codice legame scheda convivenza [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | |

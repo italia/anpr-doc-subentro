@@ -16,7 +16,7 @@ Per dare seguito alla presente procedura è necessario che l'ufficiale d'anagraf
 ## Swimlane diagram
 La seguente figura sintetizza la procedura per la gestione delle anomalie.
 
-![Swimlane diagram procedura 001](image/001.png)
+![Swimlane diagram procedura 001](image/image001.png)
 
 ## Descrizione task
 In quanto segue si riporta una descrizione dei task previsti per la presente procedura.
