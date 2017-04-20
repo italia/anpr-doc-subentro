@@ -56,34 +56,34 @@
 |	EHR69	|	Anno dell'atto di nascita [@] non  valido	| warning da rimuovere prima del subentro | |
 |	EHR70	|	Anno dell'atto di morte [@] non  valido	| warning da rimuovere prima del subentro | |
 |	EHR73	|	Anno dell'atto di annullamento del matrimonio [@] non valido	| warning da rimuovere prima del subentro | |
-|	EN001	|	Nome file [@] formalmente non corretto	| error2 | |
-|	EN002	|	La dimensione del file  [@] compresso supera il valore consentito [@]	| error2 | |
-|	EN003	|	Lo stato del subentro attuale [@] non consente l'invio del file 	| error2 | |
-|	EN007	|	E' gia' presente un file con lo stesso nome [@]	| error2 | |
-|	EN008	|	Il numero progressivo [@] indicato nel nome del file supera il totale previsto [@]	| error2 | |
-|	EN009	|	Il formato del file APR decompresso non e' XML	| error2 | |
-|	EN010	|	Il formato del file AIRE decompresso non e' TXT	| error2 | |
-|	EN011	|	Totale schede soggetto [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| error2 | |
-|	EN012	|	Totale schede soggetto [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| error2 | |
-|	EN017	|	Totale persone di sesso femminile [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| error2 | |
-|	EN018	|	Totale persone di sesso femminile [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| error2 | |
-|	EN019	|	Totale persone di sesso maschile [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| error2 | |
-|	EN020	|	Totale persone di sesso maschile [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| error2 | |
-|	EN021	|	Totale schede famiglia [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| error2 | |
-|	EN022	|	Totale schede famiglia [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| error2 | |
-|	EN023	|	Totale schede convivenza [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| error2 | |
-|	EN024	|	Totale schede convivenza [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| error2 | |
-|	EN031	|	I dati del gruppo "Dati Invio" devono essere obbligatoriamente impostati quando il totale invii >1	| error2 | |
-|	EN032	|	La data di invio del file [@] deve essere compresa tra la data di inizio e la data fine subentro pianificate	| error2 | |
-|	EN033	|	La data di inizio [@] deve essere <= della data fine [@]	| error2 | |
-|	EN034	|	Impossibile inviare altri file per un comune gia' subentrato | error2 | |
-|	EN035	|	File piano subentro errato o incompleto [in cosa]	| error2 | |
-|	EN036	|	File inviato non coerente con il Tipo file selezionato	| error2 | |
-|	EN037	|	Esiste gia' una precedente fornitura di file attualmente in elaborazione | error2 | |
-|	EN038	|	Il numero totale file da inviare [@] indicato nel nome del file supera il totale previsto [@]	| error2 | |
-|	EN039	|	Codice ISTAT del comune che invia il file [@] incongruente con il  codice ISTAT del comune indicato nel nome del file [@]	| error2 | |
-|	EN040	|	Esiste gia' una fornitura con progressivo [@] in stato OK	| error2 | |
-|	EN041	|	Piano di subentro gia' presente per il comune	| error2 | |
+|	EN001	|	Nome file [@] formalmente non corretto	| errore | |
+|	EN002	|	La dimensione del file  [@] compresso supera il valore consentito [@]	| errore | |
+|	EN003	|	Lo stato del subentro attuale [@] non consente l'invio del file 	| errore | |
+|	EN007	|	E' gia' presente un file con lo stesso nome [@]	| errore | |
+|	EN008	|	Il numero progressivo [@] indicato nel nome del file supera il totale previsto [@]	| errore | |
+|	EN009	|	Il formato del file APR decompresso non e' XML	| errore | |
+|	EN010	|	Il formato del file AIRE decompresso non e' TXT	| errore | |
+|	EN011	|	Totale schede soggetto [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| errore | |
+|	EN012	|	Totale schede soggetto [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| errore | |
+|	EN017	|	Totale persone di sesso femminile [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| errore | |
+|	EN018	|	Totale persone di sesso femminile [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| errore | |
+|	EN019	|	Totale persone di sesso maschile [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| errore | |
+|	EN020	|	Totale persone di sesso maschile [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| errore | |
+|	EN021	|	Totale schede famiglia [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| errore | |
+|	EN022	|	Totale schede famiglia [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| errore | |
+|	EN023	|	Totale schede convivenza [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| errore | |
+|	EN024	|	Totale schede convivenza [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| errore | |
+|	EN031	|	I dati del gruppo "Dati Invio" devono essere obbligatoriamente impostati quando il totale invii >1	| errore | |
+|	EN032	|	La data di invio del file [@] deve essere compresa tra la data di inizio e la data fine subentro pianificate	| errore | |
+|	EN033	|	La data di inizio [@] deve essere <= della data fine [@]	| errore | |
+|	EN034	|	Impossibile inviare altri file per un comune gia' subentrato | errore | |
+|	EN035	|	File piano subentro errato o incompleto [in cosa]	| errore | |
+|	EN036	|	File inviato non coerente con il Tipo file selezionato	| errore | |
+|	EN037	|	Esiste gia' una precedente fornitura di file attualmente in elaborazione | errore | |
+|	EN038	|	Il numero totale file da inviare [@] indicato nel nome del file supera il totale previsto [@]	| errore | |
+|	EN039	|	Codice ISTAT del comune che invia il file [@] incongruente con il  codice ISTAT del comune indicato nel nome del file [@]	| errore | |
+|	EN040	|	Esiste gia' una fornitura con progressivo [@] in stato OK	| errore | |
+|	EN041	|	Piano di subentro gia' presente per il comune	| errore | |
 |	EN063	|	Famiglia/convivenza del soggetto non presente nello stesso file di subentro	| warning non bloccanti | |
 |	EN064	|	Grado di parentela [@] - [@] non piu' valido	| warning non bloccanti | |
 |	EN242	|	Codice tipo tribunale non valido	| warning da rimuovere prima del subentro | |
@@ -107,7 +107,7 @@
 |	ES067	|	Occorre impostare in alternativa il  comune o la localita' estera di decesso del coniuge	| warning non bloccanti | |
 |	ES078	|	La data di decorrenza iscrizione AIRE [@] deve essere maggiore uguale 01/07/1990 ma non a  a quella corrente	| warning da rimuovere prima del subentro | |
 |	ES079	|	Anno espatrio [@] deve essere maggiore uguale anno nascita [@] e minore uguale anno corrente	| warning da rimuovere prima del subentro | |
-|	ES092	|	Soggetto senza scheda famiglia/convivenza associata	| error2 | |
+|	ES092	|	Soggetto senza scheda famiglia/convivenza associata	| errore | |
 
 
 
