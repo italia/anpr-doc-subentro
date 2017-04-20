@@ -1,3 +1,5 @@
+>**QUESTO DOCUMENTO É UNA BOZZA DI LAVORO**
+
 # Procedura 003
 
 > ritorna [*README*](../README.md) o [*Tabella anomalie ANPR*](../TAB01_ANOMALIE_ANPR.md)
