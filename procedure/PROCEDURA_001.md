@@ -19,7 +19,7 @@ La seguente figura sintetizza la procedura per la gestione delle anomalie.
 ![Swimlane diagram procedura 001](image/IMAGE_001.png)
 
 ## Descrizione azione
-In quanto segue si riporta una descrizione dei task previsti per la presente procedura.
+In quanto segue si riporta una descrizione delle azioni previsti per la presente procedura.
 
 ### AZIONE 001_001
 L'ufficiale d'anagrafe verifica i dati anagrafici associati al soggetto interessato dall'errore sul sistema gestionale del Comune (APR o AIRE locale) con l'obiettivo di constatare che i dati inoltrati al sistema ANPR coincidono con quelli registrati.

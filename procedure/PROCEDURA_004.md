@@ -20,7 +20,7 @@ La seguente figura sintetizza la procedura per la gestione delle anomalie.
 ![Swimlane diagram procedura 004](image/IMAGE_004.png)
 
 ## Descrizione azione
-In quanto segue si riporta una descrizione dei task previsti per la presente procedura.
+In quanto segue si riporta una descrizione delle azioni previsti per la presente procedura.
 
 ### AZIONE 004_001
 L'ufficiale di anagrafe verifica, tramite il sistema *SIATEL v2.0 - PuntoFisco* reso disponibile dall'Agenzia delle entrate, l'attribuzione dello stesso da parte dell'Agenzia delle entrate.

@@ -9,8 +9,8 @@
 |	EA002	|	Soggetto presente in AT con  DA uguali a quelli del comune ma CF del comune assente	| warning non bloccante | [Procedura_002](procedure/PROCEDURA_002.md) |
 |	EA003	|	Soggetto presente in AT con  DA uguali a quelli del comune ma CF diverso	| warning non bloccante | [Procedura_002](procedure/PROCEDURA_002.md) |
 |	EA029	|	Codice fiscale calcolato dai  DA del comune non presente in AT	| warning non bloccante | [Procedura_003](procedure/PROCEDURA_003.md) |
-|	EA030	|	CF di un soggetto residente  in piu' comuni	| warning non bloccante | |
-|	EA031	|	CF di un soggetto residente  sia in Italia che all'estero (AIRE)	| warning da rimuovere prima del subentro | |
+|	EA030	|	CF di un soggetto residente  in piu' comuni	| warning non bloccante | [Procedura_005](procedure/PROCEDURA_005.md) |
+|	EA031	|	CF di un soggetto residente  sia in Italia che all'estero (AIRE)	| warning da rimuovere prima del subentro | [Procedura_005](procedure/PROCEDURA_005.md) |
 |	EA036	|	Soggetto registrato piu' volte sia con il CF base che con quello che risolve l'omocodia  	| warning non bloccante | |
 |	EA038	|	Soggetto con data di nascita non coincidente  con quella presente nel CF	| warning da rimuovere prima del subentro | [Procedura_004](procedure/PROCEDURA_004.md)  |
 |	EA040	|	Soggetto registrato piu' volte  sia con il CF collegato che con l'ultimo	| warning non bloccante | |
