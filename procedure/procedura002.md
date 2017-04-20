@@ -13,21 +13,21 @@ Per dare seguito alla presente procedura è necessario che l'ufficiale d'anagraf
 - accesso al sistema gestionale del Comune (APR o AIRE locale) con diritti di lettura e aggiornamento delle schede soggetto;
 - accesso al sistema *SIATEL v2.0 - PuntoFisco* reso disponibile dall'Agenzia delle Entrate. 
 
-## Swimlane diagram
+## Diagramma della procedura
 La seguente figura sintetizza la procedura per la gestione delle anomalie.
 
 ![Swimlane diagram procedura 002](image/image002.png)
 
-## Descrizione task
+## Descrizione azione
 In quanto segue si riporta una descrizione dei task previsti per la presente procedura.
 
-### TASK 002_001
+### AZIONE 002_001
 L'ufficiale di anagrafe verifica, tramite il sistema *SIATEL v2.0 - PuntoFisco* reso disponibile dall'Agenzia delle entrate, l'attribuzione dello stesso da parte dell'Agenzia delle entrate.
 
-### TASK 002_002
+### AZIONE 002_002
 L'ufficiale di anagrafe, a valle del positivo riscontro con l'Agenzia delle entrate, provvede ad aggiornare il *codice fiscale* sul sistema gestionale del Comune per dare seguito ad una nuova estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire l'inoltro al sistema ANPR.
 
-### TASK 002_003
+### AZIONE 002_003
 Nel caso in in cui l'ufficiale di anagrafe non riesca ad effettuare il riscontro del CF del soggetto tramite il sistema *SIATEL v2.0 - PuntoFisco* reso disponibile dall'Agenzia delle entrate, contatta l'Help Desk di ANPR per segnalare la circostanza.
 
 ## Riferimenti di interesse
