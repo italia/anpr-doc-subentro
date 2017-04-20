@@ -4,8 +4,10 @@
 
 In quanto segue si riporta la procedura suggerita ai Comuni per la gestione delle anomalie: 
 
-- EA030 - *codice fiscale* di un soggetto residente in piu' comuni
-- EA031 - *codice fiscale* di un soggetto residente sia in Italia che all'estero (AIRE)
+- EA030 - *codice fiscale* di un soggetto residente in più comuni;
+- EA031 - *codice fiscale* di un soggetto residente sia in Italia che all'estero (AIRE);
+- EA036 - soggetto registrato più volte sia con il *codice fiscale* base che con quello che risolve l'omocodia;
+- EA040 - soggetto registrato più volte sia con il *codice fiscale* collegato che con l'ultimo.
 
 
 ## Precondizione

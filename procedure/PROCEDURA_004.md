@@ -4,8 +4,8 @@
 
 In quanto segue si riporta la procedura suggerita ai Comuni per la gestione delle anomalie: 
 
-- EA038 - Soggetto con data di nascita non coincidente con quella presente nel *codice fiscale*;
-- EA042 - Soggetto con sesso non coincidente con quella presente nel *codice fiscale*; 
+- EA038 - soggetto con data di nascita non coincidente con quella presente nel *codice fiscale*;
+- EA042 - soggetto con sesso non coincidente con quella presente nel *codice fiscale*. 
 
 
 ## Precondizione

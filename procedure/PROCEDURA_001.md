@@ -4,8 +4,8 @@
 
 In quanto segue si riporta la procedura suggerita ai Comuni per la gestione delle anomalie: 
 
-- EA001 - Codice fiscale formalmente non corretto; 
-- EA048 - Codice fiscale formalmente errato.
+- EA001 - *codice fiscale* formalmente non corretto; 
+- EA048 - *codice fiscale* formalmente errato.
 
 ## Precondizione
 Per dare seguito alla presente procedura è necessario che l'ufficiale d'anagrafe disponga:

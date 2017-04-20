@@ -4,7 +4,7 @@
 
 In quanto segue si riporta la procedura suggerita ai Comuni per la gestione delle anomalie: 
 
-- EA029 - Codice fiscale calcolato dai *dati angrafici* del comune non presente in Anagrafe Tributaria; 
+- EA029 - *codice fiscale* calcolato dai *dati angrafici* del comune non presente in Anagrafe Tributaria. 
 
 
 ## Precondizione

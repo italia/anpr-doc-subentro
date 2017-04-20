@@ -11,9 +11,9 @@
 |	EA029	|	Codice fiscale calcolato dai  DA del comune non presente in AT	| warning non bloccante | [Procedura_003](procedure/PROCEDURA_003.md) |
 |	EA030	|	CF di un soggetto residente  in piu' comuni	| warning non bloccante | [Procedura_005](procedure/PROCEDURA_005.md) |
 |	EA031	|	CF di un soggetto residente  sia in Italia che all'estero (AIRE)	| warning da rimuovere prima del subentro | [Procedura_005](procedure/PROCEDURA_005.md) |
-|	EA036	|	Soggetto registrato piu' volte sia con il CF base che con quello che risolve l'omocodia  	| warning non bloccante | |
+|	EA036	|	Soggetto registrato piu' volte sia con il CF base che con quello che risolve l'omocodia  	| warning non bloccante | [Procedura_005](procedure/PROCEDURA_005.md) |
 |	EA038	|	Soggetto con data di nascita non coincidente  con quella presente nel CF	| warning da rimuovere prima del subentro | [Procedura_004](procedure/PROCEDURA_004.md)  |
-|	EA040	|	Soggetto registrato piu' volte  sia con il CF collegato che con l'ultimo	| warning non bloccante | |
+|	EA040	|	Soggetto registrato piu' volte  sia con il CF collegato che con l'ultimo	| warning non bloccante | [Procedura_005](procedure/PROCEDURA_005.md) |
 |	EA042	|	Soggetto con sesso non coincidente  con quello presente nel CF	| warning da rimuovere prima del subentro | [Procedura_004](procedure/PROCEDURA_004.md) |
 |	EA047	|	Soggetto presente  nell'archivio AIRE e nel MAE dei cittadini non residenti (IRREPERIBILI, RIMPATRIATI, DECEDUTI,  TRASFERITI)	| warning non bloccante | |
 |	EA048	|	Codice fiscale formalmente errato	| warning da rimuovere prima del subentro | [Procedura_001](procedure/PROCEDURA_001.md) |
