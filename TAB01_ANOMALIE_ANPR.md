@@ -111,10 +111,10 @@
 
 	Legenda
 		@
-			placeholder sostituito con valore rilevato nel file di subentro
+			segnaposto sostituito con valore rilevato nel file di subentro
 
 		Codice-Tabella
-			placeholder sostituito con il riferimento alla tabella di codifica da utilizzare
+			segnaposto sostituito con il riferimento alla tabella di codifica da utilizzare
 
 		CF
 			abbreviazione di Codice Fiscale
