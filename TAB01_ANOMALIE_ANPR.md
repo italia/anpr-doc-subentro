@@ -5,7 +5,7 @@
 
 |codice anomalia | messaggio di errore | severità | procedura suggerita|
 | ------------- | ------------- | ------------- | ------------- |
-|	EA001	|	Codice fiscale formalmente non corretto	| warning da rimuovere prima del subentro | [Procedura_001](procedure/PROCEDURA_001.md) |
+|	EA001	|	Codice fiscale formalmente non corretto	| warning da rimuovere prima del subentro | [Procedura 001](procedure/PROCEDURA_001.md) |
 |	EA002	|	Soggetto presente in AT con  DA uguali a quelli del comune ma CF del comune assente	| warning non bloccante | [Procedura_002](procedure/PROCEDURA_002.md) |
 |	EA003	|	Soggetto presente in AT con  DA uguali a quelli del comune ma CF diverso	| warning non bloccante | [Procedura_002](procedure/PROCEDURA_002.md) |
 |	EA029	|	Codice fiscale calcolato dai  DA del comune non presente in AT	| warning non bloccante | [Procedura_003](procedure/PROCEDURA_003.md) |
