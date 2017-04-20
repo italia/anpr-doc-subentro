@@ -111,7 +111,7 @@
 
 	Legenda
 		@    			- placeholder sostituito con valore rilevato nel file di subentro
-		Codice-Tabella 	- placeholder sostituito con il riferimento alla tabella di codifica da utilizzare
+		Codice-Tabella	- placeholder sostituito con il riferimento alla tabella di codifica da utilizzare
 		CF   			- abbreviazione di Codice Fiscale
 		AT   			- abbreviazione di Anagrafe Tributaria
 		DA   			- abbreviazione di Dati Anagrafici
