@@ -110,12 +110,25 @@
 |	ES092	|	Soggetto senza scheda famiglia/convivenza associata	| errore | |
 
 	Legenda
-		@    			- placeholder sostituito con valore rilevato nel file di subentro
-		Codice-Tabella	- placeholder sostituito con il riferimento alla tabella di codifica da utilizzare
-		CF   			- abbreviazione di Codice Fiscale
-		AT   			- abbreviazione di Anagrafe Tributaria
-		DA   			- abbreviazione di Dati Anagrafici
-		MAE				- abbreviazione di Ministero degli Affari Esteri
-		AIRE			- abbrezione di Anagrafe Italiani Residenti all'Estero
+		@
+			placeholder sostituito con valore rilevato nel file di subentro
+
+		Codice-Tabella
+			placeholder sostituito con il riferimento alla tabella di codifica da utilizzare
+
+		CF
+			abbreviazione di Codice Fiscale
+
+		AT
+			abbreviazione di Anagrafe Tributaria
+
+		DA
+			abbreviazione di Dati Anagrafici
+
+		MAE
+			abbreviazione di Ministero degli Affari Esteri
+
+		AIRE
+			abbrezione di Anagrafe Italiani Residenti all'Estero
 
 > ritorna al [*README*](README.md)
