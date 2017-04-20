@@ -1,6 +1,6 @@
 # Tabella anomalie ANPR
 
-> ritorna al [*README*](README.md)
+> ritorna [*README*](README.md)
 
 
 |codice anomalia | messaggio di errore | severità | procedura suggerita|
@@ -131,4 +131,4 @@
 		AIRE
 			abbrezione di Anagrafe Italiani Residenti all'Estero
 
-> ritorna al [*README*](README.md)
+> ritorna [*README*](README.md)
