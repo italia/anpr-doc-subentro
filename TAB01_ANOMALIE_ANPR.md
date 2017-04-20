@@ -14,7 +14,7 @@ ritorna al [*README*](README.md)
 |EA040 | Soggetto registrato piu' volte  sia con il CF collegato che con l'ultimo | |
 |EA042 | Soggetto con sesso non coincidente  con quello presente nel CF | |
 |EA047 | Soggetto presente  nell'archivio AIRE e nel MAE dei cittadini non residenti (IRREPERIBILI, RIMPATRIATI, DECEDUTI,  TRASFERITI) | |
-|EA048 | Codice fiscale formalmente errato | |
+|EA048 | Codice fiscale formalmente errato | [Procedura_001](procedure/001.md) |
 |EC001 | Codice stato civile [@] inesistente sulla tabella di riferimento [Codice-Tabella] | |
 |EC002 | Codice relazione di parentela [@] inesistente sulla tabella di riferimento [Codice-Tabella] | |
 |EC003 | Codice legame scheda convivenza [@] inesistente sulla tabella di riferimento [Codice-Tabella] | |
