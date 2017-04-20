@@ -19,8 +19,8 @@ Indipendentemente dalla scelte dei Comuni, per assicurare il trasferimento dei d
 
 Le attività di subentro, in breve, prevedono l'esecuzione delle seguente azioni:
 
-- il Comune estrare le informazioni contenute nei propri sistemi locali (APR e AIRE), predispone il file di subentro nel rispetto del formatto atteso ed inoltro gli stessi al sistema ANPR tramite le funzionalità messe a disposizione dalla WA;
-- completato l’invio, i dati trasmessi dal comune sono sottoposti ai seguenti controlli  formali: (i) validazione del codice fiscale previo confronto con l'Anagrafe Tributaria e (ii) verifica di congruità  con  i  dati  contenuti  nell'ANPR  al momento del subentro.
+- il Comune estrare le informazioni contenute nei propri sistemi locali (APR e AIRE), predispone i file di subentro nel rispetto del formatto definito ed inoltra gli stessi al sistema ANPR tramite le funzionalità messe a disposizione dalla WA;
+- completato l’invio, i dati trasmessi dal Comune sono sottoposti ai seguenti controlli  formali: (i) validazione del codice fiscale previo confronto con l'Anagrafe Tributaria e (ii) verifica di congruità  con  i  dati  contenuti  nell'ANPR  al momento del subentro.
 
 I controlli formali realizzati dal sistema ANPR possono determinare l'evidenza di anomalie nei file trasmessi dal Comune, di specie sono previste le seguenti *severità* per le anomalie rilevate:
 
