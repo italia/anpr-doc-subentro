@@ -1,4 +1,5 @@
 # Tabella anomalie ANPR
+[*ritorna al README*](README.md)
 
 |codice anomalia | messaggio di errore | procedura suggerita|
 | ------------- | ------------- | ------------- |
@@ -105,3 +106,6 @@
 |ES078 | La data di decorrenza iscrizione AIRE [@] deve essere maggiore uguale 01/07/1990 ma non a  a quella corrente | |
 |ES079 | Anno espatrio [@] deve essere maggiore uguale anno nascita [@] e minore uguale anno corrente | |
 |ES092 | Soggetto senza scheda famiglia/convivenza associata | |
+
+
+[*ritorna al README*](README.md)
