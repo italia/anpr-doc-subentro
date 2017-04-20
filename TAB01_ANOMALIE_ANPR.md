@@ -12,9 +12,9 @@
 |	EA030	|	CF di un soggetto residente  in piu' comuni	| warning non bloccante | |
 |	EA031	|	CF di un soggetto residente  sia in Italia che all'estero (AIRE)	| warning da rimuovere prima del subentro | |
 |	EA036	|	Soggetto registrato piu' volte sia con il CF base che con quello che risolve l'omocodia  	| warning non bloccante | |
-|	EA038	|	Soggetto con data di nascita non coincidente  con quella presente nel CF	| warning da rimuovere prima del subentro | |
+|	EA038	|	Soggetto con data di nascita non coincidente  con quella presente nel CF	| warning da rimuovere prima del subentro | [Procedura_004](procedure/procedura004.md)  |
 |	EA040	|	Soggetto registrato piu' volte  sia con il CF collegato che con l'ultimo	| warning non bloccante | |
-|	EA042	|	Soggetto con sesso non coincidente  con quello presente nel CF	| warning da rimuovere prima del subentro | |
+|	EA042	|	Soggetto con sesso non coincidente  con quello presente nel CF	| warning da rimuovere prima del subentro | [Procedura_004](procedure/procedura004.md) |
 |	EA047	|	Soggetto presente  nell'archivio AIRE e nel MAE dei cittadini non residenti (IRREPERIBILI, RIMPATRIATI, DECEDUTI,  TRASFERITI)	| warning non bloccante | |
 |	EA048	|	Codice fiscale formalmente errato	| warning da rimuovere prima del subentro | [Procedura_001](procedure/procedura001.md) |
 |	EC001	|	Codice stato civile [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | |
