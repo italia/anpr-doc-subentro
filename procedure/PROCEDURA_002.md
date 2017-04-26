@@ -1,6 +1,6 @@
 >**QUESTO DOCUMENTO É UNA BOZZA DI LAVORO**
 
-# Procedura 002
+# Procedura 002 - SOGGETTO PRESENTE IN AT CON CH NON CORRISPONDENTE
 
 > ritorna [*README*](../README.md) o [*Tabella anomalie ANPR*](../TAB01_ANOMALIE_ANPR.md)
 
@@ -23,13 +23,13 @@ La seguente figura sintetizza la procedura per la gestione delle anomalie.
 ## Descrizione azione
 In quanto segue si riporta una descrizione delle azioni previsti per la presente procedura.
 
-### AZIONE 002_001
+### AZIONE 002_001 - VERIFICA ANAGRAFE TRIBUTARIA
 L'ufficiale di anagrafe verifica, tramite il sistema *SIATEL v2.0 - PuntoFisco* reso disponibile dall'Agenzia delle entrate, l'attribuzione dello stesso da parte dell'Agenzia delle entrate.
 
-### AZIONE 002_002
+### AZIONE 002_002 - AGGIORNAMENTO CF E NUOVO INOLTRO
 L'ufficiale di anagrafe, a valle del positivo riscontro con l'Agenzia delle entrate, provvede ad aggiornare il *codice fiscale* sul sistema gestionale del Comune per dare seguito ad una nuova estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire l'inoltro al sistema ANPR.
 
-### AZIONE 002_003
+### AZIONE 002_003 - PROBLEMA HELP DESK
 Nel caso in in cui l'ufficiale di anagrafe non riesca ad effettuare il riscontro del CF del soggetto tramite il sistema *SIATEL v2.0 - PuntoFisco* reso disponibile dall'Agenzia delle entrate, contatta l'Help Desk di ANPR per segnalare la circostanza.
 
 ## Riferimenti di interesse

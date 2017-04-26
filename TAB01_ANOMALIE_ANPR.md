@@ -8,8 +8,8 @@
 |codice anomalia | messaggio di errore | severità | procedura suggerita|
 | ------------- | ------------- | ------------- | ------------- |
 |	EA001	|	Codice fiscale formalmente non corretto	| warning da rimuovere prima del subentro | [Procedura 001 - Codice Fiscale non corretto o errato](procedure/PROCEDURA_001.md) |
-|	EA002	|	Soggetto presente in AT con  DA uguali a quelli del comune ma CF del comune assente	| warning non bloccante | [Procedura 002](procedure/PROCEDURA_002.md) |
-|	EA003	|	Soggetto presente in AT con  DA uguali a quelli del comune ma CF diverso	| warning non bloccante | [Procedura 002](procedure/PROCEDURA_002.md) |
+|	EA002	|	Soggetto presente in AT con  DA uguali a quelli del comune ma CF del comune assente	| warning non bloccante | [Procedura 002 - Soggetto presente in AT con CF non corrispondente](procedure/PROCEDURA_002.md) |
+|	EA003	|	Soggetto presente in AT con  DA uguali a quelli del comune ma CF diverso	| warning non bloccante | [Procedura 002 - Soggetto presente in AT con CF non corrispondente](procedure/PROCEDURA_002.md) |
 |	EA029	|	Codice fiscale calcolato dai  DA del comune non presente in AT	| warning non bloccante | [Procedura 003](procedure/PROCEDURA_003.md) |
 |	EA030	|	CF di un soggetto residente  in piu' comuni	| warning non bloccante | [Procedura 005](procedure/PROCEDURA_005.md) |
 |	EA031	|	CF di un soggetto residente  sia in Italia che all'estero (AIRE)	| warning da rimuovere prima del subentro | [Procedura 005](procedure/PROCEDURA_005.md) |
