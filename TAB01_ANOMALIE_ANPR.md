@@ -19,22 +19,22 @@
 |	EA042	|	Soggetto con sesso non coincidente  con quello presente nel CF	| warning da rimuovere prima del subentro | [Procedura 004 - CF presente con errore nella data di nascita o sesso](procedure/PROCEDURA_004.md) |
 |	EA047	|	Soggetto presente  nell'archivio AIRE e nel MAE dei cittadini non residenti (IRREPERIBILI, RIMPATRIATI, DECEDUTI,  TRASFERITI)	| warning non bloccante | NON APPLICATA: in attesa di collegamento con MAE |
 |	EA048	|	Codice fiscale formalmente errato	| warning da rimuovere prima del subentro | [Procedura 001 - Codice Fiscale non corretto o errato](procedure/PROCEDURA_001.md) |
-|	EC001	|	Codice stato civile [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | |
-|	EC002	|	Codice relazione di parentela [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | |
-|	EC003	|	Codice legame scheda convivenza [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | |
-|	EC004	|	Codice motivo costituzione della famiglia [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | |
-|	EC005	|	Codice legame specie convivenza [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | |
-|	EC006	|	Codice motivo iscrizione ANPR [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | |
-|	EC007	|	Comune/provincia di nascita [@] ([@]) inesistente o non valido alla data di nascita	| warning non bloccante | |
-|	EC008	|	Impossibile verificare la validita' del comune di nascita per la presenza di piu' occorrenze	| warning non bloccante | |
-|	EC009	|	Codice ISTAT del comune di nascita [@] incongruente con quello [@] presente sulla tabella di riferimento [Codice-Tabella]	| warning non bloccante | |
-|	EC030	|	Stato estero di nascita [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning non bloccante | |
-|	EC032	|	Codice consolato di residenza [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | |
-|	EC036	|	Stato estero cittadinanza [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning non bloccante | |
-|	EC042	|	Comune/provincia di matrimonio [@] inesistente 	| warning non bloccante | |
-|	EC053	|	Stato estero di residenza [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning non bloccante | |
-|	EC060	|	Campo codice motivo iscrizione AIRE [@]  inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | |
-|	EC061	|	Campo codice Iniziativa movimenti anagrafici AIRE [@]  inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | |
+|	EC001	|	Codice stato civile [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC002	|	Codice relazione di parentela [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC003	|	Codice legame scheda convivenza [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC004	|	Codice motivo costituzione della famiglia [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC005	|	Codice legame specie convivenza [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC006	|	Codice motivo iscrizione ANPR [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC007	|	Comune/provincia di nascita [@] ([@]) inesistente o non valido alla data di nascita	| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC008	|	Impossibile verificare la validita' del comune di nascita per la presenza di piu' occorrenze	| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC009	|	Codice ISTAT del comune di nascita [@] incongruente con quello [@] presente sulla tabella di riferimento [Codice-Tabella]	| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC030	|	Stato estero di nascita [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC032	|	Codice consolato di residenza [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC036	|	Stato estero cittadinanza [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC042	|	Comune/provincia di matrimonio [@] inesistente 	| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC053	|	Stato estero di residenza [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC060	|	Campo codice motivo iscrizione AIRE [@]  inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC061	|	Campo codice Iniziativa movimenti anagrafici AIRE [@]  inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 |	EC062	|	Campo codice Individuazione Comune Iscrizione AIRE [@]  inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | |
 |	EC063	|	Campo codice tipo soggiorno [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | |
 |	EC064	|	Campo codice posizione nella professione [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning non bloccante | |
