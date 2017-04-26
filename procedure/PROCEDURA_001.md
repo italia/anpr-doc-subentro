@@ -1,4 +1,4 @@
->**QUESTO DOCUMENTO É UNA BOZZA DI LAVORO**
+	QUESTO DOCUMENTO É UNA BOZZA DI LAVORO
 
 # Procedura 001 - CF non corretto o errato
 

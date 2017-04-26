@@ -1,4 +1,4 @@
->**QUESTO DOCUMENTO É UNA BOZZA DI LAVORO**
+	QUESTO DOCUMENTO É UNA BOZZA DI LAVORO
 
 # Procedura 005 - Duplicazione soggetto
 

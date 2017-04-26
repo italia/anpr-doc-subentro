@@ -1,4 +1,4 @@
->**QUESTO DOCUMENTO É UNA BOZZA DI LAVORO**
+	QUESTO DOCUMENTO É UNA BOZZA DI LAVORO
 
 # Procedura 003 - CF calcolato dai dati anagrafici non presente in AT
 

@@ -1,4 +1,4 @@
->**QUESTO DOCUMENTO É UNA BOZZA DI LAVORO**
+	QUESTO DOCUMENTO É UNA BOZZA DI LAVORO
 
 # Procedura 004 - CF presente con errore nella data di nascita o sesso
 

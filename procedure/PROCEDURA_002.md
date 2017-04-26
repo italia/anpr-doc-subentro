@@ -1,4 +1,4 @@
->**QUESTO DOCUMENTO É UNA BOZZA DI LAVORO**
+	QUESTO DOCUMENTO É UNA BOZZA DI LAVORO
 
 # Procedura 002 - Soggetto presente in AR con CF non corrispondente
 
