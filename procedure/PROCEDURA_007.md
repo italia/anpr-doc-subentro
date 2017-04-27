@@ -31,9 +31,9 @@ L'ufficiale d'anagrafe verifica i dati relativi alla scheda famiglia/convivenza 
 Poichè i dati inoltrati al sistema ANPR non coincidono con quelli presenti nel sistema gestionale del Comune (probabilemente per problemi nella procedura di estrazione e predisposizione dei file di subentro utilizzata) è necessario provvedere nuovamente all'estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire l'inoltro al sistema ANPR.
 
 ### AZIONE 007_003 – CONSOLIDAMENTO SCHEDA
-L'ufficiale di anagrafe provvede a consolidare i dati relativi alla scheda famiglia assicurando:
+L'ufficiale di anagrafe provvede a consolidare i dati relativi alla scheda famiglia assicurando che:
 
-- esiste sempre un'unico intestatario per scheda famiglia/convivenza;
+- per la scheda famiglia/convivenza esiste un'unico intestatario;
 - il progressivo ordine dei soggetti in una scheda famiglia/convivenza non è duplicato.
 
 ### AZIONE 007_004 - AGGIORNAMENTO E NUOVO INOLTRO

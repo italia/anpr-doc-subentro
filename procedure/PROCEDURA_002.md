@@ -23,13 +23,19 @@ La seguente figura sintetizza la procedura per la gestione delle anomalie.
 ## Descrizione azione
 In quanto segue si riporta una descrizione delle azioni previsti per la presente procedura.
 
-### AZIONE 002_001 - VERIFICA ANAGRAFE TRIBUTARIA
-L'ufficiale di anagrafe verifica, tramite il sistema *SIATEL v2.0 - PuntoFisco* reso disponibile dall'Agenzia delle entrate, l'attribuzione del Codice Fiscale in Anagrafe Tributaria per il soggetto da parte dell'Agenzia delle entrate.
+### AZIONE 001_001 - VERIFICA
+L'ufficiale d'anagrafe verifica i dati anagrafici associati al soggetto interessato dall'errore sul sistema gestionale del Comune (APR o AIRE locale) con l'obiettivo di constatare che i dati inoltrati al sistema ANPR coincidono con quelli registrati.
 
-### AZIONE 002_002 - AGGIORNAMENTO CF E NUOVO INOLTRO
+### AZIONE 001_002 - NUOVO INOLTRO
+Poichè i dati inoltrati al sistema ANPR non coincidono con quelli presenti nel sistema gestionale del Comune (probabilemente per problemi nella procedura di estrazione e predisposizione dei file di subentro utilizzata) è necessario provvedere nuovamente all'estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire l'inoltro al sistema ANPR.
+
+### AZIONE 002_003 - VERIFICA AT
+L'ufficiale di anagrafe, tramite il sistema *SIATEL v2.0 - PuntoFisco* reso disponibile dall'Agenzia delle entrate, ricerca il soggetto nell'Anagrafe Tributaria e verifica il CF ad esso assegnato.
+
+### AZIONE 002_004 - AGGIORNAMENTO CF E NUOVO INOLTRO
 L'ufficiale di anagrafe, a valle del positivo riscontro con l'Anagrafe Tributaria, provvede ad aggiornare il *codice fiscale* sul sistema gestionale del Comune per dare seguito ad una nuova estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire nuovamente l'inoltro al sistema ANPR.
 
-### AZIONE 002_003 - COMUNIZAZIONE HELP DESK
+### AZIONE 002_005 - COMUNIZAZIONE HELP DESK
 Nel caso in in cui l'ufficiale di anagrafe non riesca ad effettuare il riscontro del CF del soggetto tramite il sistema *SIATEL v2.0 - PuntoFisco* reso disponibile dall'Agenzia delle entrate, contatta l'Help Desk di ANPR per segnalare l'anomalia in quanto l'errore segnalato risulta non corrispondente al riscontro effettuato.
 
 ## Riferimenti di interesse

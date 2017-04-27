@@ -24,23 +24,29 @@ La seguente figura sintetizza la procedura per la gestione delle anomalie.
 ## Descrizione azione
 In quanto segue si riporta una descrizione delle azioni previsti per la presente procedura.
 
-### AZIONE 004_001 – VERIFICA ANAGRAFE TRIBUTARIA
-L'ufficiale di anagrafe verifica, tramite il sistema *SIATEL v2.0 - PuntoFisco* reso disponibile dall'Agenzia delle entrate, l'attribuzione dello stesso da parte dell'Agenzia delle entrate.
+### AZIONE 001_001 - VERIFICA
+L'ufficiale d'anagrafe verifica i dati anagrafici associati al soggetto interessato dall'errore sul sistema gestionale del Comune (APR o AIRE locale) con l'obiettivo di constatare che i dati inoltrati al sistema ANPR coincidono con quelli registrati.
 
-### AZIONE 004_002 - AGGIORNAMENTO CF E NUOVO INOLTRO
-L'ufficiale di anagrafe, a valle del riscontro che il *codice fiscale* conosciuto dall'Agenzia delle entrate non presente l'anomalia segnalata, provvede ad aggiornare il *codice fiscale* sul sistema gestionale del Comune per dare seguito ad una nuova estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire l'inoltro al sistema ANPR.
+### AZIONE 001_002 - NUOVO INOLTRO
+Poichè i dati inoltrati al sistema ANPR non coincidono con quelli presenti nel sistema gestionale del Comune (probabilemente per problemi nella procedura di estrazione e predisposizione dei file di subentro utilizzata) è necessario provvedere nuovamente all'estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire l'inoltro al sistema ANPR.
 
-### AZIONE 004_003 -  CONVOCAZIONE CITTADINO
-L'ufficiale di anagrafe convoca il cittadino per verificare se lo stesso è in possesso di un *codice fiscale* correttamente generato dall'Agenzia delle entrate.
+### AZIONE 004_003 – VERIFICA AT
+L'ufficiale di anagrafe, tramite il sistema *SIATEL v2.0 - PuntoFisco* reso disponibile dall'Agenzia delle entrate, ricerca il soggetto nell'Anagrafe Tributaria e verifica il CF ad esso assegnato.
 
 ### AZIONE 004_004 - AGGIORNAMENTO CF E NUOVO INOLTRO
+L'ufficiale di anagrafe, a valle del riscontro che il *codice fiscale* conosciuto dall'Agenzia delle entrate non presente l'anomalia segnalata, provvede ad aggiornare il *codice fiscale* sul sistema gestionale del Comune per dare seguito ad una nuova estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire l'inoltro al sistema ANPR.
+
+### AZIONE 004_005 -  CONVOCAZIONE CITTADINO
+L'ufficiale di anagrafe convoca il cittadino per verificare se lo stesso è in possesso di un *codice fiscale* correttamente generato dall'Agenzia delle entrate.
+
+### AZIONE 004_006 - AGGIORNAMENTO CF E NUOVO INOLTRO
 L'ufficiale di anagrafe, a valle del positivo riscontro con il cittadino, provvede ad aggiornare il *codice fiscale* sul sistema gestionale del Comune per dare seguito ad una nuova estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire l'inoltro al sistema ANPR.
 
-### AZIONE 004_005 - VARIAZIONE CF
+### AZIONE 004_007 - VARIAZIONE CF
 L'ufficiale di anagrafe provvede, attraverso le funzionalità rese disponibili dal sistema *SIATEL v2.0 - PuntoFisco* reso disponibile dall'Agenzia delle entrate, alla variazione del *codice fiscale* del cittadino.
 **L'ufficiale di anagrafe comunica al cittadino il nuovo codice fiscale** 
 
-### AZIONE 004_006 - AGGIORNAMENTO CF E NUOVO INOLTRO
+### AZIONE 004_008 - AGGIORNAMENTO CF E NUOVO INOLTRO
 L'ufficiale di anagrafe aggiorna il *codice fiscale* sul sistema gestionale del Comune per dare seguito ad una nuova estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire l'inoltro al sistema ANPR.
 
 ## Riferimenti di interesse
