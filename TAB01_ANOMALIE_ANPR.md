@@ -11,11 +11,11 @@
 |	EA002	|	Soggetto presente in AT con  DA uguali a quelli del comune ma CF del comune assente	| warning non bloccante | [Procedura 002 - Soggetto presente in AT con CF non corrispondente](procedure/PROCEDURA_002.md) |
 |	EA003	|	Soggetto presente in AT con  DA uguali a quelli del comune ma CF diverso	| warning non bloccante | [Procedura 002 - Soggetto presente in AT con CF non corrispondente](procedure/PROCEDURA_002.md) |
 |	EA029	|	Codice fiscale calcolato dai  DA del comune non presente in AT	| warning non bloccante | [Procedura 003 - CF calcolato dai dati anagrafici non presente in AT](procedure/PROCEDURA_003.md) |
-|	EA030	|	CF di un soggetto residente  in piu' comuni	| warning non bloccante | [Procedura 005 - Duplicazione soggetto](procedure/PROCEDURA_005.md) |
-|	EA031	|	CF di un soggetto residente  sia in Italia che all'estero (AIRE)	| warning da rimuovere prima del subentro | [Procedura 005 - Duplicazione soggetto](procedure/PROCEDURA_005.md) |
-|	EA036	|	Soggetto registrato piu' volte sia con il CF base che con quello che risolve l'omocodia  	| warning non bloccante | [Procedura 005 - Duplicazione soggetto](procedure/PROCEDURA_005.md) |
+|	EA030	|	CF di un soggetto residente  in piu' comuni	| warning non bloccante | [Procedura 005 - Duplicazione scheda](procedure/PROCEDURA_005.md) |
+|	EA031	|	CF di un soggetto residente  sia in Italia che all'estero (AIRE)	| warning da rimuovere prima del subentro | [Procedura 005 - Duplicazione scheda](procedure/PROCEDURA_005.md) |
+|	EA036	|	Soggetto registrato piu' volte sia con il CF base che con quello che risolve l'omocodia  	| warning non bloccante | [Procedura 005 - Duplicazione scheda](procedure/PROCEDURA_005.md) |
 |	EA038	|	Soggetto con data di nascita non coincidente  con quella presente nel CF	| warning da rimuovere prima del subentro | [Procedura 004 - CF presente con errore nella data di nascita o sesso](procedure/PROCEDURA_004.md)  |
-|	EA040	|	Soggetto registrato piu' volte  sia con il CF collegato che con l'ultimo	| warning non bloccante | [Procedura 005 - Duplicazione soggetto](procedure/PROCEDURA_005.md) |
+|	EA040	|	Soggetto registrato piu' volte  sia con il CF collegato che con l'ultimo	| warning non bloccante | [Procedura 005 - Duplicazione scheda](procedure/PROCEDURA_005.md) |
 |	EA042	|	Soggetto con sesso non coincidente  con quello presente nel CF	| warning da rimuovere prima del subentro | [Procedura 004 - CF presente con errore nella data di nascita o sesso](procedure/PROCEDURA_004.md) |
 |	EA047	|	Soggetto presente  nell'archivio AIRE e nel MAE dei cittadini non residenti (IRREPERIBILI, RIMPATRIATI, DECEDUTI,  TRASFERITI)	| warning non bloccante | NON APPLICATA: in attesa di collegamento con MAE |
 |	EA048	|	Codice fiscale formalmente errato	| warning da rimuovere prima del subentro | [Procedura 001 - Codice Fiscale non corretto o errato](procedure/PROCEDURA_001.md) |
@@ -49,7 +49,7 @@
 |	EC096	|	Comune/provincia di registrazione atto di cessazione/annullamento matrimonio [@] inesistente	| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 |	EC164	|	Codice stato istruttoria non presente sulla tabella di riferimento [Codice-Tabella]	| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 |	EC165	|	Codice tipo fine unione non presente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
-|	EF003	|	Scheda famiglia/convivenza duplicata in ANPR	| warning da rimuovere prima del subentro | |
+|	EF003	|	Scheda famiglia/convivenza duplicata in ANPR	| warning da rimuovere prima del subentro | [Procedura 005 - Duplicazione scheda](procedure/PROCEDURA_005.md) |
 |	EF004	|	Progressivo ordine gia' assegnato ad altro soggetto della scheda famiglia/convivenza	| warning non bloccante | |
 |	EF008	|	Intestatario della scheda famiglia/convivenza assente	| warning da rimuovere prima del subentro | |
 |	EF009	|	Intestatario della scheda famiglia/convivenza non univoco	| warning da rimuovere prima del subentro | |

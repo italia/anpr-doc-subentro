@@ -34,8 +34,8 @@ In quanto segue si riporta la procedura suggerita ai Comuni per la gestione dell
 - EC081 - Comune/provincia di registrazione atto di matrimonio inesistente [**NON PRESENTE SU [https://anpr.readthedocs.io/en/latest/](https://anpr.readthedocs.io/en/latest/)**];
 - EC087 - Comune di rilascio permesso di soggiorno inesistente o non valido alla data di rilascio [**NON PRESENTE SU [https://anpr.readthedocs.io/en/latest/](https://anpr.readthedocs.io/en/latest/)**];
 - EC096 - Comune/provincia di registrazione atto di cessazione/annullamento matrimonio inesistente [**NON PRESENTE SU [https://anpr.readthedocs.io/en/latest/](https://anpr.readthedocs.io/en/latest/)**];
-- EC164 - Codice stato istruttoria non presente sulla [tabella di riferimento 30](https://anpr.readthedocs.io/en/latest/tab_stato_procedimento_amministrativo.html) **VERIFICARE CORRETTEZZA TABELLA**
-- EC165 - Codice tipo fine unione non presente sulla [tabella di riferimento 43](https://anpr.readthedocs.io/en/latest/tab_cessazione_unione_civile___convivenze.html)
+- EC164 - Codice stato istruttoria non presente sulla [tabella di riferimento 30](https://anpr.readthedocs.io/en/latest/tab_stato_procedimento_amministrativo.html) **VERIFICARE CORRETTEZZA TABELLA**;
+- EC165 - Codice tipo fine unione non presente sulla [tabella di riferimento 43](https://anpr.readthedocs.io/en/latest/tab_cessazione_unione_civile___convivenze.html).
 
 
 >**WARNING NON RISULTANO USATE LE TABELLE**

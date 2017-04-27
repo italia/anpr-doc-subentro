@@ -9,7 +9,8 @@ In quanto segue si riporta la procedura suggerita ai Comuni per la gestione dell
 - EA030 - *codice fiscale* di un soggetto residente in più comuni;
 - EA031 - *codice fiscale* di un soggetto residente sia in Italia che all'estero (AIRE);
 - EA036 - soggetto registrato più volte sia con il *codice fiscale* base che con quello che risolve l'omocodia;
-- EA040 - soggetto registrato più volte sia con il *codice fiscale* collegato che con l'ultimo.
+- EA040 - soggetto registrato più volte sia con il *codice fiscale* collegato che con l'ultimo;
+- EF003 - scheda famiglia/convivenza duplicata in ANPR.
 
 
 ## Precondizione
