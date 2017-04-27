@@ -13,7 +13,7 @@ In quanto segue si riporta la procedura suggerita ai Comuni per la gestione dell
 - EC005 - Codice legame specie convivenza inesistente sulla [tabella di riferimento 27](https://anpr.readthedocs.io/en/latest/tab_specie_della_convivenza.html);
 - EC006 - Codice motivo iscrizione ANPR inesistente sulla [tabella di riferimento 07](https://anpr.readthedocs.io/en/latest/tab_motivi_di_iscrizione_in_anagrafe.html);
 - EC007 - Comune/provincia di nascita inesistente o non valido alla data di nascita [**NON PRESENTE SU [https://anpr.readthedocs.io/en/latest/](https://anpr.readthedocs.io/en/latest/)**]	
-- EC008 - Impossibile verificare la validita' del comune di nascita per la presenza di piu' occorrenze [**NON PRESENTE SU [https://anpr.readthedocs.io/en/latest/](https://anpr.readthedocs.io/en/latest/)**];
+- EC008 - Impossibile verificare la validità del comune di nascita per la presenza di più occorrenze [**NON PRESENTE SU [https://anpr.readthedocs.io/en/latest/](https://anpr.readthedocs.io/en/latest/)**];
 - EC009 - Codice ISTAT del comune di nascita incongruente con quello presente sulla tabella di riferimento [**NON PRESENTE SU [https://anpr.readthedocs.io/en/latest/](https://anpr.readthedocs.io/en/latest/)**];
 - EC030 - Stato estero di nascita inesistente sulla [tabella di riferimento 02](https://anpr.readthedocs.io/en/latest/tab_stati_esteri.html);
 - EC032 - Codice consolato di residenza inesistente sulla tabella di riferimento [**NON PRESENTE SU [https://anpr.readthedocs.io/en/latest/](https://anpr.readthedocs.io/en/latest/)**]);
@@ -22,8 +22,38 @@ In quanto segue si riporta la procedura suggerita ai Comuni per la gestione dell
 - EC053 - Stato estero di residenza inesistente sulla [tabella di riferimento 02](https://anpr.readthedocs.io/en/latest/tab_stati_esteri.html);
 - EC060 - Campo codice motivo iscrizione AIRE inesistente sulla [tabella di riferimento 19](https://anpr.readthedocs.io/en/latest/tab_motivi_iscrizione_aire.html);
 - EC061 - Campo codice Iniziativa movimenti anagrafici AIRE inesistente sulla [tabella di riferimento 20](https://anpr.readthedocs.io/en/latest/tab_iniziativa_iscrizione_aire.html);
-- **...**
-- **ELENCO DA COMPLETARE**
+- EC062 - Campo codice Individuazione Comune Iscrizione AIRE inesistente sulla tabella di riferimento [**NON PRESENTE SU [https://anpr.readthedocs.io/en/latest/](https://anpr.readthedocs.io/en/latest/)**]
+- EC063 - Campo codice tipo soggiorno inesistente sulla [tabella di riferimento 08](https://anpr.readthedocs.io/en/latest/tab_tipo_soggiorno.html);
+- EC064 - Campo codice posizione nella professione inesistente sulla [tabella di riferimento 09](https://anpr.readthedocs.io/en/latest/tab_posizione_nella_professione.html);
+- EC065 - Campo codice condizione non professione inesistente sulla [tabella di riferimento 10](https://anpr.readthedocs.io/en/latest/tab_condizione_non_professionale.html);
+- EC066 - Campo codice titolo di studio inesistente sulla [tabella di riferimento 11](https://anpr.readthedocs.io/en/latest/tab_titolo_di_studio.html);
+- EC069 - Codice lingua inesistente sulla [tabella di riferimento 14](https://anpr.readthedocs.io/en/latest/tab_lingue.html);
+- EC073 - Codice specie Toponimo inesistente sulla tabella di riferimento [**NON PRESENTE SU [https://anpr.readthedocs.io/en/latest/](https://anpr.readthedocs.io/en/latest/)**];
+- EC075 - Comune/provincia di registrazione atto di nascita inesistente o non valido alla data di registrazione [**NON PRESENTE SU [https://anpr.readthedocs.io/en/latest/](https://anpr.readthedocs.io/en/latest/)**];
+- EC078 - Comune di rilascio carta identità inesistente o non valido alla data rilascio [**NON PRESENTE SU [https://anpr.readthedocs.io/en/latest/](https://anpr.readthedocs.io/en/latest/)**];
+- EC081 - Comune/provincia di registrazione atto di matrimonio inesistente [**NON PRESENTE SU [https://anpr.readthedocs.io/en/latest/](https://anpr.readthedocs.io/en/latest/)**];
+- EC087 - Comune di rilascio permesso di soggiorno inesistente o non valido alla data di rilascio [**NON PRESENTE SU [https://anpr.readthedocs.io/en/latest/](https://anpr.readthedocs.io/en/latest/)**];
+- EC096 - Comune/provincia di registrazione atto di cessazione/annullamento matrimonio inesistente [**NON PRESENTE SU [https://anpr.readthedocs.io/en/latest/](https://anpr.readthedocs.io/en/latest/)**];
+- EC164 - Codice stato istruttoria non presente sulla [tabella di riferimento 30](https://anpr.readthedocs.io/en/latest/tab_stato_procedimento_amministrativo.html) **VERIFICARE CORRETTEZZA TABELLA**
+- EC165 - Codice tipo fine unione non presente sulla [tabella di riferimento 43](https://anpr.readthedocs.io/en/latest/tab_cessazione_unione_civile___convivenze.html)
+
+
+>**WARNING NON RISULTANO USATE LE TABELLE**
+>
+>- **Tabella 21 - Individuazione del comune di iscrizione AIRE**
+>- **Tabella 25 - Tipo indirizzo**
+>- **Tabella 32 - Tipo tribunale**
+>- **Tabella 38 - Tipi cittadinanza**
+>**WARNING DA VERIFICARE LE TABELLE**
+>
+>- **Tabella 33 - Conversione codici AIRE al subentro**
+>
+>**WARNING TABELLE NON PRESENTI SU DEVELOPERS**
+>
+>- **Tabella 3 - Archivio Comuni**
+>- **Tabella 4 - Toponimi**
+>- **Tabella T_Elenco-Consolati**
+
 
 
 ## Precondizione

@@ -35,20 +35,20 @@
 |	EC053	|	Stato estero di residenza [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 |	EC060	|	Campo codice motivo iscrizione AIRE [@]  inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 |	EC061	|	Campo codice Iniziativa movimenti anagrafici AIRE [@]  inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
-|	EC062	|	Campo codice Individuazione Comune Iscrizione AIRE [@]  inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | |
-|	EC063	|	Campo codice tipo soggiorno [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | |
-|	EC064	|	Campo codice posizione nella professione [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning non bloccante | |
-|	EC065	|	Campo codice condizione non professionale [@]  inesistente sulla tabella di riferimento [Codice-Tabella]	| warning non bloccante | |
-|	EC066	|	Campo codice titolo di studio [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning non bloccante | |
-|	EC069	|	Codice lingua [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | |
-|	EC073	|	Codice specie Toponimo [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | |
-|	EC075	|	Comune/provincia di registrazione atto di nascita [@] inesistente o non valido alla data di registrazione	| warning non bloccante | |
-|	EC078	|	Comune di rilascio carta identita' [@] inesistente o non valido alla data rilascio	| warning non bloccante | |
-|	EC081	|	Comune/provincia di registrazione atto di matrimonio [@] inesistente	| warning non bloccante | |
-|	EC087	|	Comune di rilascio permesso di soggiorno [@] inesistente o non valido alla data di rilascio	| warning non bloccante | |
-|	EC096	|	Comune/provincia di registrazione atto di cessazione/annullamento matrimonio [@] inesistente	| warning non bloccante | |
-|	EC164	|	Codice stato istruttoria non presente sulla tabella di riferimento [Codice-Tabella]	| warning non bloccante | |
-|	EC165	|	Codice tipo fine unione non presente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | |
+|	EC062	|	Campo codice Individuazione Comune Iscrizione AIRE [@]  inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC063	|	Campo codice tipo soggiorno [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC064	|	Campo codice posizione nella professione [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC065	|	Campo codice condizione non professionale [@]  inesistente sulla tabella di riferimento [Codice-Tabella]	| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC066	|	Campo codice titolo di studio [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC069	|	Codice lingua [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC073	|	Codice specie Toponimo [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC075	|	Comune/provincia di registrazione atto di nascita [@] inesistente o non valido alla data di registrazione	| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC078	|	Comune di rilascio carta identita' [@] inesistente o non valido alla data rilascio	| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC081	|	Comune/provincia di registrazione atto di matrimonio [@] inesistente	| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC087	|	Comune di rilascio permesso di soggiorno [@] inesistente o non valido alla data di rilascio	| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC096	|	Comune/provincia di registrazione atto di cessazione/annullamento matrimonio [@] inesistente	| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC164	|	Codice stato istruttoria non presente sulla tabella di riferimento [Codice-Tabella]	| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC165	|	Codice tipo fine unione non presente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 |	EF003	|	Scheda famiglia/convivenza duplicata in ANPR	| warning da rimuovere prima del subentro | |
 |	EF004	|	Progressivo ordine gia' assegnato ad altro soggetto della scheda famiglia/convivenza	| warning non bloccante | |
 |	EF008	|	Intestatario della scheda famiglia/convivenza assente	| warning da rimuovere prima del subentro | |
