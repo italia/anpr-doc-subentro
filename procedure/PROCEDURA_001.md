@@ -1,12 +1,12 @@
 	QUESTO DOCUMENTO É UNA BOZZA DI LAVORO
 
-# Procedura 001 - CF non corretto o errato
+# Procedura 001 - CF lunghezza errata o formalmente errato
 
 > ritorna [*README*](../README.md) o [*Tabella anomalie ANPR*](../TAB01_ANOMALIE_ANPR.md)
 
 In quanto segue si riporta la procedura suggerita ai Comuni per la gestione delle anomalie: 
 
-- EA001 - *codice fiscale* formalmente non corretto; 
+- EA001 - *codice fiscale* lunghezza errata; 
 - EA048 - *codice fiscale* formalmente errato.
 
 ## Precondizione

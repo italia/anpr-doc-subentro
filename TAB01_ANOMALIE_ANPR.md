@@ -7,7 +7,7 @@
 
 |codice anomalia | messaggio di errore | severità | procedura suggerita|
 | ------------- | ------------- | ------------- | ------------- |
-|	EA001	|	Codice fiscale formalmente non corretto	| warning da rimuovere prima del subentro | [Procedura 001 - Codice Fiscale non corretto o errato](procedure/PROCEDURA_001.md) |
+|	EA001	|	Codice fiscale di lunghezza errata | warning da rimuovere prima del subentro | [Procedura 001 - Codice Fiscale lunghezza errata o formalmente errato](procedure/PROCEDURA_001.md) |
 |	EA002	|	Soggetto presente in AT con  DA uguali a quelli del comune ma CF del comune assente	| warning non bloccante | [Procedura 002 - Soggetto presente in AT con CF non corrispondente](procedure/PROCEDURA_002.md) |
 |	EA003	|	Soggetto presente in AT con  DA uguali a quelli del comune ma CF diverso	| warning non bloccante | [Procedura 002 - Soggetto presente in AT con CF non corrispondente](procedure/PROCEDURA_002.md) |
 |	EA029	|	Codice fiscale calcolato dai  DA del comune non presente in AT	| warning non bloccante | [Procedura 003 - CF calcolato dai dati anagrafici non presente in AT](procedure/PROCEDURA_003.md) |
@@ -18,7 +18,7 @@
 |	EA040	|	Soggetto registrato piu' volte  sia con il CF collegato che con l'ultimo	| warning non bloccante | [Procedura 005 - Duplicazione scheda](procedure/PROCEDURA_005.md) |
 |	EA042	|	Soggetto con sesso non coincidente  con quello presente nel CF	| warning da rimuovere prima del subentro | [Procedura 004 - CF presente con errore nella data di nascita o sesso](procedure/PROCEDURA_004.md) |
 |	EA047	|	Soggetto presente  nell'archivio AIRE e nel MAE dei cittadini non residenti (IRREPERIBILI, RIMPATRIATI, DECEDUTI,  TRASFERITI)	| warning non bloccante | NON APPLICATA: in attesa di collegamento con MAE |
-|	EA048	|	Codice fiscale formalmente errato	| warning da rimuovere prima del subentro | [Procedura 001 - Codice Fiscale non corretto o errato](procedure/PROCEDURA_001.md) |
+|	EA048	|	Codice fiscale formalmente errato	| warning da rimuovere prima del subentro | [Procedura 001 - Codice Fiscale lunghezza errata o formalmente errato](procedure/PROCEDURA_001.md) |
 |	EC001	|	Codice stato civile [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 |	EC002	|	Codice relazione di parentela [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 |	EC003	|	Codice legame scheda convivenza [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
