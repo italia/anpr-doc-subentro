@@ -1,6 +1,6 @@
 	QUESTO DOCUMENTO É UNA BOZZA DI LAVORO
 
-# Procedura 007 - Anomalia in scheda famiglia/convivenza
+# Procedura 007 - Anomalia in scheda anagrafica
 
 > ritorna [*README*](../README.md) o [*Tabella anomalie ANPR*](../TAB01_ANOMALIE_ANPR.md)
 
@@ -9,7 +9,8 @@ In quanto segue si riporta la procedura suggerita ai Comuni per la gestione dell
 - EF004 - Progressivo ordine già assegnato ad altro soggetto della scheda famiglia/convivenza;
 - EF008 - Intestatario della scheda famiglia/convivenza assente;
 - EF009 - Intestatario della scheda famiglia/convivenza non univoco;
-- EF010 - Scheda famiglia senza alcun soggetto associato.
+- EF010 - Scheda famiglia senza alcun soggetto associato;
+- EHR41 - I campi comune rilascio carta di identità e codice consolato rilascio devono essere valorizzati in alternativa.
 
 
 ## Precondizione

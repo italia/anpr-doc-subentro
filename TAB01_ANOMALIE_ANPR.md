@@ -50,11 +50,11 @@
 |	EC164	|	Codice stato istruttoria non presente sulla tabella di riferimento [Codice-Tabella]	| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 |	EC165	|	Codice tipo fine unione non presente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 |	EF003	|	Scheda famiglia/convivenza duplicata in ANPR	| warning da rimuovere prima del subentro | [Procedura 005 - Duplicazione scheda anagrafica](procedure/PROCEDURA_005.md) |
-|	EF004	|	Progressivo ordine gia' assegnato ad altro soggetto della scheda famiglia/convivenza	| warning non bloccante | [Procedura 007 - Anomalia in scheda famiglia/convivenza](procedure/PROCEDURA_007.md) |
-|	EF008	|	Intestatario della scheda famiglia/convivenza assente	| warning da rimuovere prima del subentro | [Procedura 007 - Anomalia in scheda famiglia/convivenza](procedure/PROCEDURA_007.md) |
-|	EF009	|	Intestatario della scheda famiglia/convivenza non univoco	| warning da rimuovere prima del subentro | [Procedura 007 - Anomalia in scheda famiglia/convivenza](procedure/PROCEDURA_007.md) |
-|	EF010	|	Scheda famiglia senza alcun soggetto associato	| warning non bloccante | [Procedura 007 - Anomalia in scheda famiglia/convivenza](procedure/PROCEDURA_007.md) |
-|	EHR41	|	I campi comune rilascio carta di identita' [@] e  codice consolato rilascio [@] devono essere valorizzati in alternativa	| warning non bloccante | [Procedura 007 - Anomalia in scheda famiglia/convivenza](procedure/PROCEDURA_007.md) |
+|	EF004	|	Progressivo ordine gia' assegnato ad altro soggetto della scheda famiglia/convivenza	| warning non bloccante | [Procedura 007 - Anomalia in scheda anagrafica](procedure/PROCEDURA_007.md) |
+|	EF008	|	Intestatario della scheda famiglia/convivenza assente	| warning da rimuovere prima del subentro | [Procedura 007 - Anomalia in scheda anagrafica](procedure/PROCEDURA_007.md) |
+|	EF009	|	Intestatario della scheda famiglia/convivenza non univoco	| warning da rimuovere prima del subentro | [Procedura 007 - Anomalia in scheda anagrafica](procedure/PROCEDURA_007.md) |
+|	EF010	|	Scheda famiglia senza alcun soggetto associato	| warning non bloccante | [Procedura 007 - Anomalia in scheda anagrafica](procedure/PROCEDURA_007.md) |
+|	EHR41	|	I campi comune rilascio carta di identita' [@] e  codice consolato rilascio [@] devono essere valorizzati in alternativa | warning non bloccante | [Procedura 007 - Anomalia in scheda anagrafica](procedure/PROCEDURA_007.md) |
 |	EHR69	|	Anno dell'atto di nascita [@] non  valido	| warning da rimuovere prima del subentro | |
 |	EHR70	|	Anno dell'atto di morte [@] non  valido	| warning da rimuovere prima del subentro | |
 |	EHR73	|	Anno dell'atto di annullamento del matrimonio [@] non valido	| warning da rimuovere prima del subentro | |
