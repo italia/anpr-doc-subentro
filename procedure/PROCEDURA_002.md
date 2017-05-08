@@ -23,10 +23,10 @@ La seguente figura sintetizza la procedura per la gestione delle anomalie.
 ## Descrizione azione
 In quanto segue si riporta una descrizione delle azioni previsti per la presente procedura.
 
-### AZIONE 001_001 - VERIFICA
+### AZIONE 002_001 - VERIFICA
 L'ufficiale d'anagrafe verifica i dati anagrafici associati al soggetto interessato dall'errore sul sistema gestionale del Comune (APR o AIRE locale) con l'obiettivo di constatare che i dati inoltrati al sistema ANPR coincidono con quelli registrati.
 
-### AZIONE 001_002 - NUOVO INOLTRO
+### AZIONE 002_002 - NUOVO INOLTRO
 Poichè i dati inoltrati al sistema ANPR non coincidono con quelli presenti nel sistema gestionale del Comune (probabilemente per problemi nella procedura di estrazione e predisposizione dei file di subentro utilizzata) è necessario provvedere nuovamente all'estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire l'inoltro al sistema ANPR.
 
 ### AZIONE 002_003 - VERIFICA AT

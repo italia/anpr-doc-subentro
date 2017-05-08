@@ -34,7 +34,7 @@ L'ufficiale d'anagrafe verifica i dati anagrafici associati al soggetto interess
 Poichè i dati inoltrati al sistema ANPR non coincidono con quelli presenti nel sistema gestionale del Comune (probabilemente per problemi nella procedura di estrazione e predisposizione dei file di subentro utilizzata) è necessario provvedere nuovamente all'estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire l'inoltro al sistema ANPR.
 
 ### AZIONE 005_003 – IDENTIFICAZIONE SOGGETTO
-L'ufficiale di anagrafe, o se necessario perchè coinvolti più comuni gli ufficiali di anagrafe, realizzano le necessarie verifiche al fine di confutare quale sia la scheda soggetto da considerare corretta.
+L'ufficiale di anagrafe, o se necessario perchè coinvolti più comuni gli ufficiali di anagrafe (come per l'EA030), realizzano le necessarie verifiche al fine di individuare quale sia la scheda soggetto e/o dati da considerare corretti.
 
 ### AZIONE 005_004 - CONSOLIDAMENTO E NUOVO INOLTRO
 L'ufficiale di anagrafe, sulla base delle verifica effettuata, provvede a consolidare le *schede soggetto* sul sistema gestionale del Comune per dare seguito ad una nuova estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire l'inoltro al sistema ANPR.
