@@ -88,10 +88,10 @@ La seguente tabella riporta le anomalie che il sistema ANPR rileva sui dati tras
 |	EN040	|	Esiste gia' una fornitura con progressivo [@] in stato OK	| errore | |
 |	EN041	|	Piano di subentro gia' presente per il comune	| errore | |
 |	EN063	|	Famiglia/convivenza del soggetto non presente nello stesso file di subentro	| warning non bloccante | |
-|	EN064	|	Grado di parentela [@] - [@] non piu' valido	| warning non bloccante | |
-|	EN242	|	Codice tipo tribunale non valido	| warning da rimuovere prima del subentro | |
+|	EN064	|	Grado di parentela [@] - [@] non piu' valido	| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EN242	|	Codice tipo tribunale non valido	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 |	EN306	|	La data del matrimonio e' obbligatoria	| warning da rimuovere prima del subentro | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
-|	EN347	|	Codice istat utilizzato corrisponde a un codice di variazione	| warning non bloccante | |
+|	EN347	|	Codice istat utilizzato corrisponde a un codice di variazione	| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 |	ES007	|	Soggetto gia' presente in ANPR	| warning da rimuovere prima del subentro | [Procedura 005 - Duplicazione scheda anagrafica](procedure/PROCEDURA_005.md) |
 |	ES008	|	Data nascita [@] successiva alla data di richiesta	| warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
 |	ES009	|	Data  validita' cittadinanza [@] deve essere maggiore uguale della data di nascita [@] ma non a  a quella corrente [@]	| warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |

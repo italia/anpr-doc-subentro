@@ -35,7 +35,10 @@ In quanto segue si riporta la procedura suggerita ai Comuni per la gestione dell
 - EC087 - Comune di rilascio permesso di soggiorno inesistente o non valido alla data di rilascio [tabella di riferimento 03](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html);
 - EC096 - Comune/provincia di registrazione atto di cessazione/annullamento matrimonio inesistente [tabella di riferimento 03](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html);
 - EC164 - Codice stato istruttoria non presente sulla [tabella di riferimento 30](https://anpr.readthedocs.io/en/latest/tab_stato_procedimento_amministrativo.html) **VERIFICARE CORRETTEZZA TABELLA**;
-- EC165 - Codice tipo fine unione non presente sulla [tabella di riferimento 43](https://anpr.readthedocs.io/en/latest/tab_cessazione_unione_civile___convivenze.html).
+- EC165 - Codice tipo fine unione non presente sulla [tabella di riferimento 43](https://anpr.readthedocs.io/en/latest/tab_cessazione_unione_civile___convivenze.html);
+- EN064 - Grado di parentela non più valido, come segnalato nella [tabella di riferimento 05](https://anpr.readthedocs.io/en/latest/tab_relazione_di_parentela___famiglia.html);
+- EN242 - Codice tipo tribunale non valido, poichè non previsto in [tabella di riferimento 32](https://anpr.readthedocs.io/en/latest/tab_tipo_tribunale.html);
+- EN347 - Codice ISTAT utilizzato corrisponde a un codice di variazione, vedi [tabella di riferimento 03](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html)
 
 
 >**WARNING NON RISULTANO USATE LE TABELLE**
@@ -77,6 +80,8 @@ Poichè i dati inoltrati al sistema ANPR non coincidono con quelli presenti nel 
 
 ### AZIONE 006_003 – IDENTIFICAZIONE CODICE
 L'ufficiale di anagrafe identifica la corretta codifica del valore presente nell'APR/AIRE con il codice previsto dalla tabella di riferimento adottata da ANPR, ad esempio nel caso per l'indicazione della relazione di parentela in una famiglia nel caso in cui nell'APR/AIRE locali è presente "Nonno / Nonna" lo stesso andrà codificato con il valore 7.
+
+Nello specifico dell'anomalia *EN347 - Codice ISTAT utilizzato corrisponde a un codice di variazione* si evidenzia che i questo caso il Comune ha utilizzato un codice ISTAT transitorio (caratterizzato da riferimento a Comune nel codice con valore compreso tra 500 e 600), tali codici sono riportati nella colonna COD_DENOM della [tabella di riferimento 03](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html) e devono essere sostituiti con i codici ISTAT riportati nella stessa tabella alla colonna CODISTAT.
 
 ### AZIONE 006_004 - AGGIORNAMENTO E NUOVO INOLTRO
 L'ufficiale di anagrafe, sulla base dell'identificazione effettuata, provvede ad aggironare la *schede soggetto* e/o *schede famiglia*  sul sistema gestionale del Comune o ad assicurare la corretta transcodifica nella procedura di estrazione e predisposizione dei file di subentro, per dare seguito ad una nuova estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire l'inoltro al sistema ANPR.
