@@ -90,7 +90,7 @@ La seguente tabella riporta le anomalie che il sistema ANPR rileva sui dati tras
 |	EN063	|	Famiglia/convivenza del soggetto non presente nello stesso file di subentro	| warning non bloccante | |
 |	EN064	|	Grado di parentela [@] - [@] non piu' valido	| warning non bloccante | |
 |	EN242	|	Codice tipo tribunale non valido	| warning da rimuovere prima del subentro | |
-|	EN306	|	La data del matrimonio e' obbligatoria	| warning da rimuovere prima del subentro | |
+|	EN306	|	La data del matrimonio e' obbligatoria	| warning da rimuovere prima del subentro | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
 |	EN347	|	Codice istat utilizzato corrisponde a un codice di variazione	| warning non bloccante | |
 |	ES007	|	Soggetto gia' presente in ANPR	| warning da rimuovere prima del subentro | [Procedura 005 - Duplicazione scheda anagrafica](procedure/PROCEDURA_005.md) |
 |	ES008	|	Data nascita [@] successiva alla data di richiesta	| warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
@@ -98,16 +98,16 @@ La seguente tabella riporta le anomalie che il sistema ANPR rileva sui dati tras
 |	ES010	|	Data matrimonio [@] deve essere successiva alla data di nascita [@] ma non a  a quella corrente	| warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
 |	ES012	|	Data annullamento matrimonio [@] deve essere successiva alla data di nascita [@] ma non a  a quella corrente [@]	| warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
 |	ES013	|	Data formazione atto di nascita [@] deve essere coincidente o successiva a quella di nascita [@] ma non a  a quella corrente [@]	| warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
-|	ES027	|	La descrizione della localita' e' obbligatoria per la residenza estera	| warning non bloccante | |
-|	ES028	|	Per la residenza estera deve essere presente almeno uno tra i seguenti campi: indirizzo, presso, contea-provincia, CAP	| warning non bloccante | |
-|	ES048	|	Occorre impostare in alternativa  il comune o la localita' estera del matrimonio	| warning non bloccante | |
-|	ES050	|	Occorre impostare in alternativa codice  comune ISTAT  o stato estero di nascita	| warning non bloccante | |
-|	ES057	|	Specificare in alternativa che il soggetto e' senza cognome o senza nome | warning da rimuovere prima del subentro | |
-|	ES061	|	Il cognome deve essere assente se il campo SenzaCognome e' impostato	| warning da rimuovere prima del subentro | |
-|	ES062	|	Il nome deve essere assente se il campo SenzaNome e' impostato	| warning da rimuovere prima del subentro | |
+|	ES027	|	La descrizione della localita' e' obbligatoria per la residenza estera	| warning non bloccante | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
+|	ES028	|	Per la residenza estera deve essere presente almeno uno tra i seguenti campi: indirizzo, presso, contea-provincia, CAP	| warning non bloccante | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
+|	ES048	|	Occorre impostare in alternativa  il comune o la localita' estera del matrimonio	| warning non bloccante | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
+|	ES050	|	Occorre impostare in alternativa codice  comune ISTAT  o stato estero di nascita	| warning non bloccante | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
+|	ES057	|	Specificare in alternativa che il soggetto e' senza cognome o senza nome | warning da rimuovere prima del subentro | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
+|	ES061	|	Il cognome deve essere assente se il campo SenzaCognome e' impostato	| warning da rimuovere prima del subentro | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
+|	ES062	|	Il nome deve essere assente se il campo SenzaNome e' impostato	| warning da rimuovere prima del subentro | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
 |	ES063	|	La data nascita [@] deve avere solo l'anno se il campo senzaGiornoMese e' impostato a 1	| warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
 |	ES066	|	La data nascita [@] deve avere solo il mese e l'anno se il campo senzaGiorno e' impostato a 1	| warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
-|	ES067	|	Occorre impostare in alternativa il  comune o la localita' estera di decesso del coniuge	| warning non bloccante | |
+|	ES067	|	Occorre impostare in alternativa il  comune o la localita' estera di decesso del coniuge	| warning non bloccante | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
 |	ES078	|	La data di decorrenza iscrizione AIRE [@] deve essere maggiore uguale 01/07/1990 ma non a  a quella corrente	| warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
 |	ES079	|	Anno espatrio [@] deve essere maggiore uguale anno nascita [@] e minore uguale anno corrente	| warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
 |	ES092	|	Soggetto senza scheda famiglia/convivenza associata	| errore | |
