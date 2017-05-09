@@ -6,9 +6,9 @@
 
 In quanto segue si riporta la procedura suggerita ai Comuni per la gestione delle anomalie: 
 
-- EC001 - Codice stato civile inesistente sulla [tabella di riferimento 01](https://anpr.readthedocs.io/en/latest/tab_stato_civile.html){:target="_blank"};
-- EC002 - Codice relazione di parentela inesistente sulla [tabella di riferimento 05](https://anpr.readthedocs.io/en/latest/tab_relazione_di_parentela___famiglia.html);
-- EC003 - Codice legame scheda convivenza inesistente sulla [tabella di riferimento 06](https://anpr.readthedocs.io/en/latest/tab_legame____convivenza.html);
+- EC001 - Codice stato civile inesistente sulla <a href="https://anpr.readthedocs.io/en/latest/tab_stato_civile.html" target="_blank">tabella di riferimento 01</a>;
+- EC002 - Codice relazione di parentela inesistente sulla <a href="https://anpr.readthedocs.io/en/latest/tab_relazione_di_parentela___famiglia.html" target="_blank">tabella di riferimento 05</a>;
+- EC003 - Codice legame scheda convivenza inesistente sulla <a href="https://anpr.readthedocs.io/en/latest/tab_legame____convivenza.html" target="_blank">tabella di riferimento 06</a>;
 - EC004 - Codice motivo costituzione della famiglia inesistente sulla [tabella di riferimento 26](https://anpr.readthedocs.io/en/latest/tab_motivo_costituzione_della_famiglia.html);
 - EC005 - Codice legame specie convivenza inesistente sulla [tabella di riferimento 27](https://anpr.readthedocs.io/en/latest/tab_specie_della_convivenza.html);
 - EC006 - Codice motivo iscrizione ANPR inesistente sulla [tabella di riferimento 07](https://anpr.readthedocs.io/en/latest/tab_motivi_di_iscrizione_in_anagrafe.html);
