@@ -4,6 +4,7 @@
 
 > ritorna [*README*](README.md)
 
+La seguente tabella riporta le anomalie che il sistema ANPR rileva sui dati trasmessi dal Comune. Si sottolinea che **per concludere il subentro risulta prioritario che il Comune provveda a risolvere le anomalie bloccanti** (warning da rimuovere prima del subentro e errori), potendo pianificare l'azione di correzione delle restanti anomalie a valle del subentro in quanto **il sistema ANPR assicura la possibilità di riscontrare, attraverso le funzionalità assicurate dalla Web Application, in ogni momento le anomalie presenti sui dati di propria competenza**
 
 |codice anomalia | messaggio di errore | severità | procedura suggerita|
 | ------------- | ------------- | ------------- | ------------- |
@@ -91,7 +92,7 @@
 |	EN242	|	Codice tipo tribunale non valido	| warning da rimuovere prima del subentro | |
 |	EN306	|	La data del matrimonio e' obbligatoria	| warning da rimuovere prima del subentro | |
 |	EN347	|	Codice istat utilizzato corrisponde a un codice di variazione	| warning non bloccante | |
-|	ES007	|	Soggetto gia' presente in ANPR	| warning da rimuovere prima del subentro | |
+|	ES007	|	Soggetto gia' presente in ANPR	| warning da rimuovere prima del subentro | [Procedura 005 - Duplicazione scheda anagrafica](procedure/PROCEDURA_005.md) |
 |	ES008	|	Data nascita [@] successiva alla data di richiesta	| warning da rimuovere prima del subentro | |
 |	ES009	|	Data  validita' cittadinanza [@] deve essere maggiore uguale della data di nascita [@] ma non a  a quella corrente [@]	| warning da rimuovere prima del subentro | |
 |	ES010	|	Data matrimonio [@] deve essere successiva alla data di nascita [@] ma non a  a quella corrente	| warning da rimuovere prima del subentro | |
