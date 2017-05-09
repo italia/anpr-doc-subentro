@@ -82,5 +82,11 @@ L'ufficiale di anagrafe identifica la corretta codifica del valore presente nell
 ### AZIONE 006_004 - AGGIORNAMENTO E NUOVO INOLTRO
 L'ufficiale di anagrafe, sulla base dell'identificazione effettuata, provvede ad aggironare la *schede soggetto* e/o *schede famiglia*  sul sistema gestionale del Comune o ad assicurare la corretta transcodifica nella procedura di estrazione e predisposizione dei file di subentro, per dare seguito ad una nuova estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire l'inoltro al sistema ANPR.
 
+## Riferimenti di interesse
+Nello specifico della presente procedure risultano di interesse:
+
+- [note all'utilizzo](https://docs.google.com/document/d/1QS2-HVwEKXC_vxL3qSrA2eePSDc_qR9TZbhBlKwtw80/edit) della tabella storico Comuni
+- [note all'utilizzo](https://docs.google.com/document/d/1O8XAUMyRRq-YMcjzcuZlvQpQEl5wiq78rdHTRtBzZIs/edit) della tabella storico Stati Esteri
+
 
 > ritorna [*README*](../README.md) o [*Tabella anomalie ANPR*](../TAB01_ANOMALIE_ANPR.md)
