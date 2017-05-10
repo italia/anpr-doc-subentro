@@ -15,7 +15,7 @@ La seguente tabella riporta le anomalie che il sistema ANPR rileva sui dati tras
 |	EA030	|	CF di un soggetto residente  in piu' comuni	| warning non bloccante | [Procedura 005 - Duplicazione scheda anagrafica](procedure/PROCEDURA_005.md) |
 |	EA031	|	CF di un soggetto residente  sia in Italia che all'estero (AIRE)	| warning da rimuovere prima del subentro | [Procedura 005 - Duplicazione scheda anagrafica](procedure/PROCEDURA_005.md) |
 |	EA036	|	Soggetto registrato piu' volte sia con il CF base che con quello che risolve l'omocodia  	| warning non bloccante | [Procedura 005 - Duplicazione scheda anagrafica](procedure/PROCEDURA_005.md) |
-|	EA038	|	Soggetto con data di nascita non coincidente  con quella presente nel CF	| warning da rimuovere prima del subentro | [[Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md) |
+|	EA038	|	Soggetto con data di nascita non coincidente  con quella presente nel CF	| warning da rimuovere prima del subentro | [Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md) |
 |	EA040	|	Soggetto registrato piu' volte  sia con il CF collegato che con l'ultimo	| warning non bloccante | [Procedura 005 - Duplicazione scheda anagrafica](procedure/PROCEDURA_005.md) |
 |	EA042	|	Soggetto con sesso non coincidente  con quello presente nel CF	| warning da rimuovere prima del subentro | [Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md) |
 |	EA047	|	Soggetto presente  nell'archivio AIRE e nel MAE dei cittadini non residenti (IRREPERIBILI, RIMPATRIATI, DECEDUTI,  TRASFERITI)	| warning non bloccante | NON APPLICATA: in attesa di collegamento con MAE |
@@ -66,16 +66,16 @@ La seguente tabella riporta le anomalie che il sistema ANPR rileva sui dati tras
 |	EN008	|	Il numero progressivo [@] indicato nel nome del file supera il totale previsto [@]	| errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
 |	EN009	|	Il formato del file APR decompresso non e' XML	| errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
 |	EN010	|	Il formato del file AIRE decompresso non e' TXT	| errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
-|	EN011	|	Totale schede soggetto [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| errore | |
-|	EN012	|	Totale schede soggetto [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| errore | |
-|	EN017	|	Totale persone di sesso femminile [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| errore | |
-|	EN018	|	Totale persone di sesso femminile [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| errore | |
-|	EN019	|	Totale persone di sesso maschile [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| errore | |
-|	EN020	|	Totale persone di sesso maschile [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| errore | |
-|	EN021	|	Totale schede famiglia [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| errore | |
-|	EN022	|	Totale schede famiglia [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| errore | |
-|	EN023	|	Totale schede convivenza [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| errore | |
-|	EN024	|	Totale schede convivenza [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| errore | |
+|	EN011	|	Totale schede soggetto [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| errore |  [Procedura 009 - Errori di quadratura](procedure/PROCEDURA_009.md) |
+|	EN012	|	Totale schede soggetto [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| errore | [Procedura 009 - Errori di quadratura](procedure/PROCEDURA_009.md)|
+|	EN017	|	Totale persone di sesso femminile [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| errore | [Procedura 009 - Errori di quadratura](procedure/PROCEDURA_009.md) |
+|	EN018	|	Totale persone di sesso femminile [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| errore | [Procedura 009 - Errori di quadratura](procedure/PROCEDURA_009.md) |
+|	EN019	|	Totale persone di sesso maschile [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| errore | [Procedura 009 - Errori di quadratura](procedure/PROCEDURA_009.md) |
+|	EN020	|	Totale persone di sesso maschile [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| errore | [Procedura 009 - Errori di quadratura](procedure/PROCEDURA_009.md) |
+|	EN021	|	Totale schede famiglia [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| errore | [Procedura 009 - Errori di quadratura](procedure/PROCEDURA_009.md) |
+|	EN022	|	Totale schede famiglia [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| errore | [Procedura 009 - Errori di quadratura](procedure/PROCEDURA_009.md) |
+|	EN023	|	Totale schede convivenza [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| errore | [Procedura 009 - Errori di quadratura](procedure/PROCEDURA_009.md) |
+|	EN024	|	Totale schede convivenza [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| errore | [Procedura 009 - Errori di quadratura](procedure/PROCEDURA_009.md) |
 |	EN031	|	I dati del gruppo "Dati Invio" devono essere obbligatoriamente impostati quando il totale invii >1	| errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
 |	EN032	|	La data di invio del file [@] deve essere compresa tra la data di inizio e la data fine subentro pianificate	| errore | |
 |	EN033	|	La data di inizio [@] deve essere <= della data fine [@]	| errore | |
