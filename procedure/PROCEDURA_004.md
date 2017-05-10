@@ -14,7 +14,8 @@ In quanto segue si riporta la procedura suggerita ai Comuni per la gestione dell
 - ES057 - Specificare in alternativa che il soggetto è senza cognome o senza nome;
 - ES061 - Il cognome deve essere assente se il campo SenzaCognome è impostato;
 - ES062 - Il nome deve essere assente se il campo SenzaNome è impostato;
-- ES067 - Occorre impostare in alternativa il comune o la località estera di decesso del coniuge.
+- ES067 - Occorre impostare in alternativa il comune o la località estera di decesso del coniuge;
+- ES092	- Soggetto senza scheda famiglia/convivenza associata.
 
 
 ## Precondizione

@@ -59,13 +59,13 @@ La seguente tabella riporta le anomalie che il sistema ANPR rileva sui dati tras
 |	EHR69	|	Anno dell'atto di nascita [@] non  valido	| warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md)|
 |	EHR70	|	Anno dell'atto di morte [@] non  valido	| warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
 |	EHR73	|	Anno dell'atto di annullamento del matrimonio [@] non valido	| warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
-|	EN001	|	Nome file [@] formalmente non corretto	| errore | |
-|	EN002	|	La dimensione del file  [@] compresso supera il valore consentito [@]	| errore | |
+|	EN001	|	Nome file [@] formalmente non corretto	| errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
+|	EN002	|	La dimensione del file  [@] compresso supera il valore consentito [@]	| errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
 |	EN003	|	Lo stato del subentro attuale [@] non consente l'invio del file 	| errore | |
-|	EN007	|	E' gia' presente un file con lo stesso nome [@]	| errore | |
-|	EN008	|	Il numero progressivo [@] indicato nel nome del file supera il totale previsto [@]	| errore | |
-|	EN009	|	Il formato del file APR decompresso non e' XML	| errore | |
-|	EN010	|	Il formato del file AIRE decompresso non e' TXT	| errore | |
+|	EN007	|	E' gia' presente un file con lo stesso nome [@]	| errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
+|	EN008	|	Il numero progressivo [@] indicato nel nome del file supera il totale previsto [@]	| errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
+|	EN009	|	Il formato del file APR decompresso non e' XML	| errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
+|	EN010	|	Il formato del file AIRE decompresso non e' TXT	| errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
 |	EN011	|	Totale schede soggetto [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| errore | |
 |	EN012	|	Totale schede soggetto [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| errore | |
 |	EN017	|	Totale persone di sesso femminile [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| errore | |
@@ -76,15 +76,15 @@ La seguente tabella riporta le anomalie che il sistema ANPR rileva sui dati tras
 |	EN022	|	Totale schede famiglia [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| errore | |
 |	EN023	|	Totale schede convivenza [@] dichiarato nel file [@] incongruente con quello calcolato [@]	| errore | |
 |	EN024	|	Totale schede convivenza [@] dichiarato per l'intera fornitura [@] incongruente con quello calcolato [@]	| errore | |
-|	EN031	|	I dati del gruppo "Dati Invio" devono essere obbligatoriamente impostati quando il totale invii >1	| errore | |
+|	EN031	|	I dati del gruppo "Dati Invio" devono essere obbligatoriamente impostati quando il totale invii >1	| errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
 |	EN032	|	La data di invio del file [@] deve essere compresa tra la data di inizio e la data fine subentro pianificate	| errore | |
 |	EN033	|	La data di inizio [@] deve essere <= della data fine [@]	| errore | |
 |	EN034	|	Impossibile inviare altri file per un comune gia' subentrato | errore | |
 |	EN035	|	File piano subentro errato o incompleto [in cosa]	| errore | |
-|	EN036	|	File inviato non coerente con il Tipo file selezionato	| errore | |
+|	EN036	|	File inviato non coerente con il Tipo file selezionato	| errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
 |	EN037	|	Esiste gia' una precedente fornitura di file attualmente in elaborazione | errore | |
-|	EN038	|	Il numero totale file da inviare [@] indicato nel nome del file supera il totale previsto [@]	| errore | |
-|	EN039	|	Codice ISTAT del comune che invia il file [@] incongruente con il  codice ISTAT del comune indicato nel nome del file [@]	| errore | |
+|	EN038	|	Il numero totale file da inviare [@] indicato nel nome del file supera il totale previsto [@]	| errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
+|	EN039	|	Codice ISTAT del comune che invia il file [@] incongruente con il  codice ISTAT del comune indicato nel nome del file [@]	| errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
 |	EN040	|	Esiste gia' una fornitura con progressivo [@] in stato OK	| errore | |
 |	EN041	|	Piano di subentro gia' presente per il comune	| errore | |
 |	EN063	|	Famiglia/convivenza del soggetto non presente nello stesso file di subentro	| warning non bloccante | |
@@ -110,7 +110,7 @@ La seguente tabella riporta le anomalie che il sistema ANPR rileva sui dati tras
 |	ES067	|	Occorre impostare in alternativa il  comune o la localita' estera di decesso del coniuge	| warning non bloccante | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
 |	ES078	|	La data di decorrenza iscrizione AIRE [@] deve essere maggiore uguale 01/07/1990 ma non a  a quella corrente	| warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
 |	ES079	|	Anno espatrio [@] deve essere maggiore uguale anno nascita [@] e minore uguale anno corrente	| warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
-|	ES092	|	Soggetto senza scheda famiglia/convivenza associata	| errore | |
+|	ES092	|	Soggetto senza scheda famiglia/convivenza associata	| errore | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
 
 	Legenda
 		@
