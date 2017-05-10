@@ -7,6 +7,7 @@
 In quanto segue si riporta la procedura suggerita ai Comuni per la gestione delle anomalie: 
 
 - EN306 - La data del matrimonio è obbligatoria;
+- EHR41 - I campi comune rilascio carta di identità e codice consolato rilascio devono essere valorizzati in alternativa;
 - ES027 - La descrizione della località è obbligatoria per la residenza estera;
 - ES028 - Per la residenza estera deve essere presente almeno uno tra i seguenti campi: indirizzo, presso, contea-provincia, CAP;
 - ES048 - Occorre impostare in alternativa il comune o la località estera del matrimonio;
@@ -16,6 +17,7 @@ In quanto segue si riporta la procedura suggerita ai Comuni per la gestione dell
 - ES062 - Il nome deve essere assente se il campo SenzaNome è impostato;
 - ES067 - Occorre impostare in alternativa il comune o la località estera di decesso del coniuge;
 - ES092	- Soggetto senza scheda famiglia/convivenza associata.
+
 
 
 ## Precondizione
@@ -39,7 +41,7 @@ L'ufficiale d'anagrafe verifica i dati anagrafici associati al soggetto interess
 Poichè i dati inoltrati al sistema ANPR non coincidono con quelli presenti nel sistema gestionale del Comune (probabilemente per problemi nella procedura di estrazione e predisposizione dei file di subentro utilizzata) è necessario provvedere nuovamente all'estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire l'inoltro al sistema ANPR.
 
 ### AZIONE 004_003 – RECUPERO DATI MANCANTI
-L'ufficiale di anagrafe provvede a recuperare i dati manacanti, se necessario anche attraverso il riscontro con gli atti di stato civile, al fine di assicurare la completezza delle informazioni per la scheda soggetto interessato dall'anomalia. Successivamente provvedere ad aggiungere i dati sull'APR o AIRE locale per dare seguito ad una nuova estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire l'inoltro al sistema ANPR.
+L'ufficiale di anagrafe provvede a recuperare i dati manacanti e/o a eliminare i dati che risultano erroneamente popolati, se necessario anche attraverso il riscontro con gli atti di stato civile, al fine di assicurare la completezza delle informazioni per la scheda soggetto interessato dall'anomalia. Successivamente provvedere ad aggiungere i dati sull'APR o AIRE locale per dare seguito ad una nuova estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire l'inoltro al sistema ANPR.
 
 
 > ritorna [*README*](../README.md) o [*Tabella anomalie ANPR*](../TAB01_ANOMALIE_ANPR.md)

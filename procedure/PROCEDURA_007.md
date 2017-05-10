@@ -9,8 +9,7 @@ In quanto segue si riporta la procedura suggerita ai Comuni per la gestione dell
 - EF004 - Progressivo ordine già assegnato ad altro soggetto della scheda famiglia/convivenza;
 - EF008 - Intestatario della scheda famiglia/convivenza assente;
 - EF009 - Intestatario della scheda famiglia/convivenza non univoco;
-- EF010 - Scheda famiglia senza alcun soggetto associato;
-- EHR41 - I campi comune rilascio carta di identità e codice consolato rilascio devono essere valorizzati in alternativa.
+- EF010 - Scheda famiglia senza alcun soggetto associato.
 
 
 ## Precondizione
@@ -32,7 +31,7 @@ L'ufficiale d'anagrafe verifica i dati relativi alla scheda famiglia/convivenza 
 Poichè i dati inoltrati al sistema ANPR non coincidono con quelli presenti nel sistema gestionale del Comune (probabilemente per problemi nella procedura di estrazione e predisposizione dei file di subentro utilizzata) è necessario provvedere nuovamente all'estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire l'inoltro al sistema ANPR.
 
 ### AZIONE 007_003 – CONSOLIDAMENTO SCHEDA
-L'ufficiale di anagrafe provvede a consolidare i dati relativi alla scheda famiglia assicurando che:
+L'ufficiale di anagrafe provvede a consolidare i dati relativi alla scheda famiglia/convivenza con errori, assicurando che:
 
 - per la scheda famiglia/convivenza esiste un'unico intestatario;
 - il progressivo ordine dei soggetti in una scheda famiglia/convivenza non è duplicato.

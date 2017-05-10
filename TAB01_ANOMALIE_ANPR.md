@@ -55,7 +55,7 @@ La seguente tabella riporta le anomalie che il sistema ANPR rileva sui dati tras
 |	EF008	|	Intestatario della scheda famiglia/convivenza assente	| warning da rimuovere prima del subentro | [Procedura 007 - Anomalia in scheda anagrafica](procedure/PROCEDURA_007.md) |
 |	EF009	|	Intestatario della scheda famiglia/convivenza non univoco	| warning da rimuovere prima del subentro | [Procedura 007 - Anomalia in scheda anagrafica](procedure/PROCEDURA_007.md) |
 |	EF010	|	Scheda famiglia senza alcun soggetto associato	| warning non bloccante | [Procedura 007 - Anomalia in scheda anagrafica](procedure/PROCEDURA_007.md) |
-|	EHR41	|	I campi comune rilascio carta di identita' [@] e  codice consolato rilascio [@] devono essere valorizzati in alternativa | warning non bloccante | [Procedura 007 - Anomalia in scheda anagrafica](procedure/PROCEDURA_007.md) |
+|	EHR41	|	I campi comune rilascio carta di identita' [@] e  codice consolato rilascio [@] devono essere valorizzati in alternativa | warning non bloccante | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
 |	EHR69	|	Anno dell'atto di nascita [@] non  valido	| warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md)|
 |	EHR70	|	Anno dell'atto di morte [@] non  valido	| warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
 |	EHR73	|	Anno dell'atto di annullamento del matrimonio [@] non valido	| warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
