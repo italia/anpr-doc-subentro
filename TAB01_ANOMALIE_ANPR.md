@@ -1,5 +1,3 @@
-	QUESTO DOCUMENTO É UNA BOZZA DI LAVORO
-
 # Tabella anomalie ANPR
 
 > ritorna [*README*](README.md)
