@@ -1,5 +1,3 @@
-	QUESTO DOCUMENTO É UNA BOZZA DI LAVORO
-
 # Subentro Comuni
 
 
