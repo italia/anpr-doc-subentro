@@ -19,7 +19,7 @@ In quanto segue si riporta la procedura suggerita ai Comuni per la gestione dell
 
 
 ## Precondizione
-Nessuna precondizione.
+Si evidenzia che l'ufficiale d'anagrafe ha la necessità di **lavorare in stretta sinergia con il proprio fornitore** per dare seguito alle necessarie attività di correzione delle anomalie.
 
 
 ## Diagramma della procedura

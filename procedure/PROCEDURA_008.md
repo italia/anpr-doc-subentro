@@ -19,7 +19,7 @@ In quanto segue si riporta la procedura suggerita ai Comuni per la gestione dell
 
 
 ## Precondizione
-Nessuna precondizione.
+Si evidenzia che l'ufficiale d'anagrafe ha la necessità di **lavorare in stretta sinergia con il proprio fornitore** per dare seguito alle necessarie attività di correzione delle anomalie.
 
 
 ## Diagramma della procedura
@@ -39,7 +39,11 @@ L'ufficiale d'anagrafe in base alla specifica anomalia segnalata provvedede a co
 - XML è case sensitive: bisogna ricordarlo quando usiamo maiuscone e minuscole per nomi dei tag e attributi
 - Gli attributi devono essere racchiusi tra singoli o doppi apici.
 
-Inoltre assicura che il file rispetti lo schema xsd previsto.
+Inoltre assicura che il file rispetti lo schema xsd previsto. 
+
+Si suggerisce che l’ufficiale d’anagrafe segnala al proprio fornitore l’errore rilevato da ANPR. 
+
+Si ricorda che in ambiente di test-comuni nella sezione Strumenti di supporto, che compare in alto a destra sulla home page, è disponibile un client che consente la verifica del file xml per la migrazione dei dati dall'APR locale alla base dati ANPR.
 
 ### AZIONE 008_002 – NUOVO INOLTRO
 A valle della correzione del file di subentro è necessario provvedere nuovamente ad eseguire l'inoltro al sistema ANPR.
