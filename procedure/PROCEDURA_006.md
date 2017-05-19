@@ -22,7 +22,7 @@ In quanto segue si riporta la procedura suggerita ai Comuni per la gestione dell
 - EC053 - Stato estero di residenza inesistente sulla [tabella di riferimento 02](https://anpr.readthedocs.io/en/latest/tab_stati_esteri.html);
 - EC060 - Campo codice motivo iscrizione AIRE inesistente sulla [tabella di riferimento 19](https://anpr.readthedocs.io/en/latest/tab_motivi_iscrizione_aire.html);
 - EC061 - Campo codice Iniziativa movimenti anagrafici AIRE inesistente sulla [tabella di riferimento 20](https://anpr.readthedocs.io/en/latest/tab_iniziativa_iscrizione_aire.html);
-- EC062 - Campo codice Individuazione Comune Iscrizione AIRE inesistente sulla tabella di riferimento [tabella di riferimento 03](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html)
+- EC062 - Campo codice Individuazione Comune Iscrizione AIRE inesistente sulla tabella di riferimento [tabella di riferimento 21](http://anpr.readthedocs.io/en/latest/tab_individuazione_del_comune_di_iscrizione_aire.html)
 - EC063 - Campo codice tipo soggiorno inesistente sulla [tabella di riferimento 08](https://anpr.readthedocs.io/en/latest/tab_tipo_soggiorno.html);
 - EC064 - Campo codice posizione nella professione inesistente sulla [tabella di riferimento 09](https://anpr.readthedocs.io/en/latest/tab_posizione_nella_professione.html);
 - EC065 - Campo codice condizione non professione inesistente sulla [tabella di riferimento 10](https://anpr.readthedocs.io/en/latest/tab_condizione_non_professionale.html);
