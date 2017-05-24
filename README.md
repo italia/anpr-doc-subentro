@@ -13,6 +13,12 @@ Tali anomalie derivano da controlli formali sui dati trasmessi dal Comune; nel d
 - **warning da rimuovere prima del subentro**, si riscontrano difformità tra i dati trasmessi dal Comune e quelli attesi dal sistema ANPR che richiedono un intervento sui dati da realizzarsi prima del subentro (ad esempio Codice fiscale formalmente non corretto);
 - **errori**, i file inoltrati dal Comune presentano incongruenze tali da rendere non accettabili i dati da parte del sistema ANPR (ad esempio totale schede soggetto dichiarato nel file incongruente con l'effettivo numero di schede soggetto inoltrate).
 
+In sintesi le azioni di verifica realizzate da ANPR, fatti salvi gli errori che afferiscono la creazione del file che determinato lo scarto dell’interno invio, i controlli formali riguardano:
+
+- il contenuto delle schede individuali, famiglia e convivenza, la coerenza dei vari attributi tra loro, la correttezza rispetto ai valori ammessi per i campi codificati;
+- la validazione del codice fiscale, eseguita dall’Agenzia delle Entrate.
+
+
 Nel ricordare che l'obiettivo ultimo del subentro è quello di assicurare che i dati presenti nelle APR locali siano trasferiti al sistema ANPR e nel contempo si assicuri l'allineamento dei codici fiscali associati ai soggetti così come attribuiti dall'Agenzia delle Entrate, si evidenzia che in caso di disallineamento tra il codice fiscale registrato dall'APR e quello attribuito dall'Agenzia delle Entrate, l'ufficiale di anagrafe deve dare seguito ai necessari accertamenti al fine di verificare che i dati registrati nell'APR o nell'AIRE locali corrispondano alle informazioni registrate sugli Atti dello stato civile. Nel caso in cui la correzione dei dati anagrafici in possesso dell'Agenzia delle Entrate determini la necessità di mutare il codice fiscale attribuito al cittadino, si suggerisce che l'ufficiale d'anagrafe, per sanare la circostanza rilevata, convochi il cittadino indicandogli le seguenti possibilità:
 
 - applicazione dell'[articolo 36](http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2000-10-03;396~art36) del DPR 396 del 3 novembre 2000 "Regolamento per la revisione e la semplificazione dell'ordinamento dello stato civile";
