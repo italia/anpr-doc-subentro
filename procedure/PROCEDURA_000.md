@@ -43,7 +43,7 @@ Nel ricordare che l'obiettivo ultimo del subentro è quello di assicurare che i 
 - invito al cittadino a rivolgersi all'Agenzia delle Entrate per una nuova assegnazione di codice fiscale.
 
 ### AZIONE 000_003 – AGGIORNAMENTO DATI ANAGRAFICI
-L'ufficiale d'anagrafe da seguito agli aggiornamenti dei dati anagrafici sull'APR locale, anche in cosiderazione delle volontà espresse dal cittadino.  
+L'ufficiale d'anagrafe da seguito agli aggiornamenti dei dati anagrafici sull'APR locale, anche in considerazione delle volontà espresse dal cittadino.  
 
 
 > ritorna [*README*](../README.md) o [*Tabella anomalie ANPR*](../TAB01_ANOMALIE_ANPR.md)
