@@ -50,7 +50,7 @@ L'ufficiale di anagrafe convoca il cittadino per verificare se lo stesso è in g
 L'ufficiale di anagrafe, a valle del positivo riscontro con il cittadino, provvede ad aggiornare il *codice fiscale* sul sistema gestionale del Comune per dare seguito ad una nuova estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire nuovamente l'inoltro al sistema ANPR.
 
 ### AZIONE 001_007 - CANCELLAZIONE CF E NUOVO INOLTRO
-L'ufficiale di anagrafe, non avendo la possibilità di riscontrate il *codice fiscale* provvede alla cancellazione dei dati sul sistema gestionale del Comune per dare seguito ad una nuova estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire nuovamente l'inoltro al sistema ANPR.
+L'ufficiale di anagrafe, non avendo la possibilità di riscontrare il *codice fiscale* provvede alla cancellazione dei dati relativi ai CF non corrispondenti sul sistema gestionale del Comune per dare seguito ad una nuova estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire nuovamente l'inoltro al sistema ANPR.
 
 ## Riferimenti di interesse
 Nello specifico della presente procedure risultano di interesse:

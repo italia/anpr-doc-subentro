@@ -35,6 +35,8 @@ L'ufficiale d'anagrafe, tramite il sistema *SIATEL v2.0 - PuntoFisco* reso dispo
 - Cognome, Casella senza cognome, ----, Casella senza nome, Sesso, Data di Nascita, Casella senza giorno, Casella senza giorno e mese, ---------------, Comune e Prov. di Nascita 
 - -------, Nome, Casella senza nome, Sesso, Data di Nascita, Casella senza giorno, Casella senza giorno e mese, ---------------, Comune e Prov. di Nascita 
 
+Si raccomanda di effettuare ricerche sfruttando i diversi criteri disponibili per verificare “al di là di ogni ragionevole dubbio” che la persona sia effettivamente sprovvista di codice fiscale, per evitare di creare posizioni riferite allo stesso soggetto, registrato più volte negli archivi dell’Agenzia delle Entrate con dati anagrafici diversi.
+
 ### AZIONE 000_002 – ISTRUTTORIA
 Nel ricordare che l'obiettivo ultimo del subentro è quello di assicurare che i dati presenti nelle APR locali siano trasferiti al sistema ANPR e nel contempo si assicuri l'allineamento dei codici fiscali associati ai soggetti così come attribuiti dall'Agenzia delle Entrate, si evidenzia che in caso di disallineamento tra il codice fiscale registrato dall'APR e quello attribuito dall'Agenzia delle Entrate, l'ufficiale di anagrafe deve dare seguito ai necessari accertamenti al fine di verificare che i dati registrati nell'APR o nell'AIRE locali corrispondano alle informazioni registrate sugli Atti dello stato civile. Nel caso in cui la correzione dei dati anagrafici in possesso dell'Agenzia delle Entrate determini la necessità di mutare il codice fiscale attribuito al cittadino, si suggerisce che l'ufficiale d'anagrafe, per sanare la circostanza rilevata, convochi il cittadino indicandogli le seguenti possibilità:
 

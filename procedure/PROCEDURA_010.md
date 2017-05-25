@@ -14,7 +14,7 @@ In quanto segue si riporta la procedura suggerita ai Comuni per la gestione dell
 
 
 ## Precondizione
-Nessuna precondizione.
+Creazione dei file che contengono i dati APR e AIRE, nel rispetto delle [modalità definite](https://www.anpr.interno.it/portale/documents/20182/23925/Invio+file+di+Subentro.pdf/e0c98d8d-363a-4ca3-adcf-3e9613632be4) per il sistema ANPR. In merito si evidenzia che il pacchetto per la creazione del file AIRE è scaricabile dall’ambiente di test-comuni nella sezione strumenti di supporto. Si ricorda che in caso di mancato invio di uno dei due file, l’elaborazione di subentro non si avvia
 
 
 ## Diagramma della procedura
