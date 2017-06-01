@@ -12,13 +12,14 @@ In quanto segue si riporta la procedura suggerita ai Comuni per la gestione dell
 - EA042 - Soggetto con sesso non coincidente con quella presente nel *codice fiscale*;
 - EA048 - *Codice fiscale* formalmente errato.
 
+In fase di subentro ANPR segnala i cittadini AIRE che non sono mai entrati in Italia (perché figli di italiani, ma nati all'estero) perché sconosciuto all'Agenzia delle Entrate, ma in questo caso l'anomalia NON può essere sanata perché l'attribuzione del CF NON è prevista dalla legge. Le modifiche vanno fatte solo per i cittadini APR.
 
 
 
 ## Precondizione
 Per dare seguito alla presente procedura è necessario che l'ufficiale d'anagrafe disponga:
 
-- accesso al sistema gestionale del Comune (APR o AIRE locale) con diritti di lettura e aggiornamento delle schede soggetto;
+- accesso al sistema gestionale del Comune con diritti di lettura e aggiornamento delle schede soggetto;
 - accesso al sistema *SIATEL v2.0 - PuntoFisco* reso disponibile dall'Agenzia delle Entrate. 
 
 ## Diagramma della procedura
@@ -30,7 +31,7 @@ La seguente figura sintetizza la procedura per la gestione delle anomalie.
 In quanto segue si riporta una descrizione delle azioni previsti per la presente procedura.
 
 ### AZIONE 001_001 - VERIFICA
-L'ufficiale d'anagrafe verifica i dati anagrafici associati al soggetto interessato dall'errore sul sistema gestionale del Comune (APR o AIRE locale) con l'obiettivo di constatare che i dati inoltrati al sistema ANPR coincidono con quelli registrati. **Si evidenzia che l'ufficiale di anagrafe provvede anche al riscontro che i dati registrati nell'APR o AIRE locali corrispondano con i dati registrati allo stato civile**
+L'ufficiale d'anagrafe verifica i dati anagrafici associati al soggetto interessato dall'errore sul sistema gestionale del Comune con l'obiettivo di constatare che i dati inoltrati al sistema ANPR coincidono con quelli registrati. **Si evidenzia che l'ufficiale di anagrafe provvede anche al riscontro che i dati registrati nell'APR locale corrispondano con i dati registrati allo stato civile**
 
 ### AZIONE 001_002 - NUOVO INOLTRO
 Poichè i dati inoltrati al sistema ANPR non coincidono con quelli presenti nel sistema gestionale del Comune (probabilemente per problemi nella procedura di estrazione e predisposizione dei file di subentro utilizzata) è necessario provvedere nuovamente all'estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire l'inoltro al sistema ANPR.
@@ -47,7 +48,7 @@ L'ufficiale di anagrafe, a valle del positivo riscontro con l'Agenzia delle entr
 L'ufficiale di anagrafe convoca il cittadino per verificare se lo stesso è in grado di attestare il *codice fiscale* ad esso attribuito dall'Agenzia delle entrate, ad esempio verificando la tessera sanitaria in suo possesso.
 
 ### AZIONE 001_006 - AGGIORNAMENTO CF E NUOVO INOLTRO
-L'ufficiale di anagrafe, dopo aver verificato che il cittadino *NON* possiede un *codice fiscale* (ad esempio ciò si verifica per molti soggetti AIRE), lo cancella sul sistema gestionale del Comune per dare seguito ad una nuova estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire nuovamente l'inoltro al sistema ANPR.
+L'ufficiale di anagrafe, dopo aver verificato che il cittadino *NON* possiede un *codice fiscale*, lo cancella sul sistema gestionale del Comune per dare seguito ad una nuova estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire nuovamente l'inoltro al sistema ANPR.
 
 
 ### AZIONE 001_007 - CANCELLAZIONE CF E NUOVO INOLTRO
