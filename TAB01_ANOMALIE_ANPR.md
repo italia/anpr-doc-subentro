@@ -139,26 +139,26 @@ Per semplificare la lettura si sono classificate le anomalie in due macro-catego
 | EN063 | Famiglia/convivenza del soggetto non presente nello stesso file di subentro | warning non bloccante | |
  
 
-Legenda
-  @
-   segnaposto sostituito con valore rilevato nel file di subentro
-
-  Codice-Tabella
-   segnaposto sostituito con il riferimento alla tabella di codifica da utilizzare
-
-  CF
-   abbreviazione di Codice Fiscale
-
-  AT
-   abbreviazione di Anagrafe Tributaria
-
-  DA
-   abbreviazione di Dati Anagrafici
-
-  MAE
-   abbreviazione di Ministero degli Affari Esteri
-
-  AIRE
-   abbrezione di Anagrafe Italiani Residenti all'Estero
+	Legenda
+	  @
+	   segnaposto sostituito con valore rilevato nel file di subentro
+	
+	  Codice-Tabella
+	   segnaposto sostituito con il riferimento alla tabella di codifica da utilizzare
+	
+	  CF
+	   abbreviazione di Codice Fiscale
+	
+	  AT
+	   abbreviazione di Anagrafe Tributaria
+	
+	  DA
+	   abbreviazione di Dati Anagrafici
+	
+	  MAE
+	   abbreviazione di Ministero degli Affari Esteri
+	
+	  AIRE
+	   abbrezione di Anagrafe Italiani Residenti all'Estero
 
 > ritorna [*README*](README.md)
