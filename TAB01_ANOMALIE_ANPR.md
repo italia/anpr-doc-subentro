@@ -102,6 +102,7 @@ Per semplificare la lettura si sono classificate le anomalie in due macro-catego
 | ES127 | Data prima iscrizione del soggetto @ deve essere minore o uguale della data decorrenza residenza @  e  della data ultimo aggiornamento @ | warning non bloccante ||
 | ES128 | Data prima iscrizione del soggetto o  data decorrenza residenza o data ultimo aggiornamento assente |warning non bloccante||
 
+
 ##Anomalie sui file di subentro
 
 |codice anomalia | messaggio di errore | severità | procedura suggerita|
