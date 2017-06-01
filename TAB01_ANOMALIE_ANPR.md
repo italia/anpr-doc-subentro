@@ -10,7 +10,7 @@ Per semplificare la lettura si sono classificate le anomalie in due macro-catego
 - **Anomalie sui file di subentro** che riguardano la formazione dei file per il trasferimento dall’APR locale all’ANPR e, per la loro natura, vedano direttamente interessati i tecnici informatici che predispongono i file.
 
 
-##Anomalie sui dati anagrafici
+## Anomalie sui dati anagrafici
 
 |codice anomalia | messaggio di errore | severità | procedura suggerita|
 | ------------- | ------------- | ------------- | ------------- |
@@ -104,7 +104,7 @@ Per semplificare la lettura si sono classificate le anomalie in due macro-catego
 
 
 
-##Anomalie sui file di subentro
+## Anomalie sui file di subentro
 
 |codice anomalia | messaggio di errore | severità | procedura suggerita|
 | ------------- | ------------- | ------------- | ------------- |
