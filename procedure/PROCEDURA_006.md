@@ -6,19 +6,19 @@
 
 In quanto segue si riporta la procedura suggerita ai Comuni per la gestione delle anomalie: 
 
-- EC001 - Codice stato civile @ inesistente sulla tabella di riferimento: [Tabella 1 Stato civile](https://anpr.readthedocs.io/en/latest/tab_stato_civile.html);
-- EC002 - Codice relazione di parentela inesistente sulla tabella di riferimento: [Tabella 5 Relazione di parentela](https://anpr.readthedocs.io/en/latest/tab_relazione_di_parentela___famiglia.html);
+- EC001 - Codice stato civile @ inesistente sulla tabella di riferimento [Tabella 1 Stato civile](https://anpr.readthedocs.io/en/latest/tab_stato_civile.html);
+- EC002 - Codice relazione di parentela inesistente sulla tabella di riferimento [Tabella 5 Relazione di parentela](https://anpr.readthedocs.io/en/latest/tab_relazione_di_parentela___famiglia.html);
 - EC003 - Codice legame scheda convivenza inesistente sulla tabella di riferimento [Tabella 6 Legame convivenza](https://anpr.readthedocs.io/en/latest/tab_legame____convivenza.html);
-- EC004 - Codice motivo costituzione della famiglia inesistente sulla [tabella di riferimento 26](https://anpr.readthedocs.io/en/latest/tab_motivo_costituzione_della_famiglia.html);
-- EC005 - Codice legame specie convivenza inesistente sulla [tabella di riferimento 27](https://anpr.readthedocs.io/en/latest/tab_specie_della_convivenza.html);
-- EC006 - Codice motivo iscrizione ANPR inesistente sulla [tabella di riferimento 07](https://anpr.readthedocs.io/en/latest/tab_motivi_di_iscrizione_in_anagrafe.html);
-- EC007 - Comune/provincia di nascita inesistente o non valido alla data di nascita [tabella di riferimento 03](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html)	
+- EC004 - Codice motivo costituzione della famiglia inesistente sulla tabella di riferimento [Tabella 26 Motivo costituzione della famiglia](https://anpr.readthedocs.io/en/latest/tab_motivo_costituzione_della_famiglia.html);
+- EC005 - Codice legame specie convivenza inesistente sulla tabella di riferimento [Tabella 27 Specie della convivenza](https://anpr.readthedocs.io/en/latest/tab_specie_della_convivenza.html);
+- EC006 - Codice motivo iscrizione ANPR inesistente sulla tabella di riferimento [Tabella 7 Motivi di iscrizione in Anagrafe](https://anpr.readthedocs.io/en/latest/tab_motivi_di_iscrizione_in_anagrafe.html);
+- EC007 - Comune/provincia di nascita inesistente o non valido alla data di nascita [Tabella 3 Comuni](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html);	
 - EC008 - Impossibile verificare la validità del comune di nascita per la presenza di più occorrenze [tabella di riferimento 03](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html);
 - EC009 - Codice ISTAT del comune di nascita incongruente con quello presente sulla tabella di riferimento [tabella di riferimento 03](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html);
-- EC030 - Stato estero di nascita inesistente sulla [tabella di riferimento 02](https://anpr.readthedocs.io/en/latest/tab_stati_esteri.html);
-- EC032 - Codice consolato di residenza inesistente sulla tabella di riferimento [**NON PRESENTE SU [https://anpr.readthedocs.io/en/latest/](https://anpr.readthedocs.io/en/latest/)**]);
-- EC036 -  Stato estero cittadinanza inesistente sulla [tabella di riferimento 02](https://anpr.readthedocs.io/en/latest/tab_stati_esteri.html);
-- EC042 - Comune/provincia di matrimonio inesistente [tabella di riferimento 03](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html)
+- EC030 - Stato estero di nascita inesistente sulla [Tabella 2 Stati Esteri](https://anpr.readthedocs.io/en/latest/tab_stati_esteri.html);
+- EC032 - Codice consolato di residenza inesistente sulla tabella di riferimento [Tabella 24 Elenco Consolati **NON PRESENTE SU [https://anpr.readthedocs.io/en/latest/](https://anpr.readthedocs.io/en/latest/)**]);
+- EC036 -  Stato estero cittadinanza inesistente sulla tabella di riferimento: [Tabella 2 Stati Esteri](https://anpr.readthedocs.io/en/latest/tab_stati_esteri.html);
+- EC042 - Comune/provincia di matrimonio inesistente [Tabella 3 Comuni](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html);
 - EC053 - Stato estero di residenza inesistente sulla [tabella di riferimento 02](https://anpr.readthedocs.io/en/latest/tab_stati_esteri.html);
 - EC060 - Campo codice motivo iscrizione AIRE inesistente sulla [tabella di riferimento 19](https://anpr.readthedocs.io/en/latest/tab_motivi_iscrizione_aire.html);
 - EC061 - Campo codice Iniziativa movimenti anagrafici AIRE inesistente sulla [tabella di riferimento 20](https://anpr.readthedocs.io/en/latest/tab_iniziativa_iscrizione_aire.html);
