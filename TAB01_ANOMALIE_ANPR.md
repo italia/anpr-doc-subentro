@@ -69,7 +69,7 @@ Per semplificare la lettura si sono classificate le anomalie in due macro-catego
 | EF009 | Intestatario della scheda famiglia/convivenza non univoco | warning da rimuovere prima del subentro | [Procedura 007 - Anomalia in scheda anagrafica](procedure/PROCEDURA_007.md) |
 | EF010 | Scheda famiglia senza alcun soggetto associato | warning non bloccante | [Procedura 007 - Anomalia in scheda anagrafica](procedure/PROCEDURA_007.md) |
 | EHR41 | I campi comune rilascio carta di identita' @ e  codice consolato rilascio @ devono essere valorizzati in alternativa | warning non bloccante | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
-| EHR69 | Anno dell'atto di nascita @ non valido | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md)|
+| EHR69 | Anno dell'atto di nascita @ non valido | warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md)|
 | EHR70 | Anno dell'atto di morte @ non valido | warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
 | EHR71 | Anno dell'atto di matrimonio @ non  valido | warning non bloccante | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
 | EHR73 | Anno dell'atto di annullamento del matrimonio @ non valido | warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
@@ -103,6 +103,7 @@ Per semplificare la lettura si sono classificate le anomalie in due macro-catego
 | ES128 | Data prima iscrizione del soggetto o  data decorrenza residenza o data ultimo aggiornamento assente |warning non bloccante||
 
 ##Anomalie sui file di subentro
+
 |codice anomalia | messaggio di errore | severità | procedura suggerita|
 | ------------- | ------------- | ------------- | ------------- |
 | EN001 | Nome file @ formalmente non corretto | errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
