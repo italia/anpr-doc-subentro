@@ -6,9 +6,9 @@
 
 In quanto segue si riporta la procedura suggerita ai Comuni per la gestione delle anomalie: 
 
-- EC001 - Codice stato civile inesistente sulla [tabella di riferimento 01](https://anpr.readthedocs.io/en/latest/tab_stato_civile.html);
-- EC002 - Codice relazione di parentela inesistente sulla [tabella di riferimento 05](https://anpr.readthedocs.io/en/latest/tab_relazione_di_parentela___famiglia.html);
-- EC003 - Codice legame scheda convivenza inesistente sulla [tabella di riferimento 06](https://anpr.readthedocs.io/en/latest/tab_legame____convivenza.html);
+- EC001 - Codice stato civile @ inesistente sulla tabella di riferimento: [Tabella 1 Stato civile](https://anpr.readthedocs.io/en/latest/tab_stato_civile.html);
+- EC002 - Codice relazione di parentela inesistente sulla tabella di riferimento: [Tabella 5 Relazione di parentela](https://anpr.readthedocs.io/en/latest/tab_relazione_di_parentela___famiglia.html);
+- EC003 - Codice legame scheda convivenza inesistente sulla tabella di riferimento [Tabella 6 Legame convivenza](https://anpr.readthedocs.io/en/latest/tab_legame____convivenza.html);
 - EC004 - Codice motivo costituzione della famiglia inesistente sulla [tabella di riferimento 26](https://anpr.readthedocs.io/en/latest/tab_motivo_costituzione_della_famiglia.html);
 - EC005 - Codice legame specie convivenza inesistente sulla [tabella di riferimento 27](https://anpr.readthedocs.io/en/latest/tab_specie_della_convivenza.html);
 - EC006 - Codice motivo iscrizione ANPR inesistente sulla [tabella di riferimento 07](https://anpr.readthedocs.io/en/latest/tab_motivi_di_iscrizione_in_anagrafe.html);
@@ -79,9 +79,10 @@ L'ufficiale d'anagrafe verifica i dati anagrafici associati al soggetto interess
 Poichè i dati inoltrati al sistema ANPR non coincidono con quelli presenti nel sistema gestionale del Comune (probabilemente per problemi nella procedura di estrazione e predisposizione dei file di subentro utilizzata) è necessario provvedere nuovamente all'estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire l'inoltro al sistema ANPR.
 
 ### AZIONE 006_003 – IDENTIFICAZIONE CODICE
+
 L'ufficiale di anagrafe identifica la corretta codifica del valore presente nell'APR/AIRE con il codice previsto dalla tabella di riferimento adottata da ANPR, ad esempio nel caso per l'indicazione della relazione di parentela in una famiglia nel caso in cui nell'APR/AIRE locali è presente "Nonno / Nonna" lo stesso andrà codificato con il valore 7.
 
-Nello specifico dell'anomalia *EN347 - Codice ISTAT utilizzato corrisponde a un codice di variazione* si evidenzia che in questo caso il Comune ha utilizzato un codice di denominazione, utilizzato per identificare la denominazione precedente del comune. Tali codici, generati da ISTAT concatenando al codice della provincia a tre cifre un progressivo nell’intervallo 500-620, sono riportati nella colonna COD_DENOM della tabella di riferimento 03 e devono essere sostituiti con il corrispondente codice ISTAT riportato nella stessa tabella alla colonna CODISTAT della [tabella di riferimento 03](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html) e devono essere sostituiti con i codici ISTAT riportati nella stessa tabella alla colonna CODISTAT.
+Nello specifico dell'anomalia EN347 - Codice ISTAT utilizzato corrisponde a un codice di variazione si evidenzia che in questo caso il Comune ha utilizzato un codice di denominazione che identifica la denominazione precedente del comune. Tali codici, generati da ISTAT concatenando al codice della provincia a tre cifre un progressivo nell’intervallo 500-620, sono riportati nella colonna COD_DENOM della tabella di riferimento 03 e devono essere sostituiti con il corrispondente codice ISTAT riportato nella stessa tabella alla colonna CODISTAT della [tabella di riferimento 03](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html) e devono essere sostituiti con i codici ISTAT riportati nella stessa tabella alla colonna CODISTAT.
 
 ### AZIONE 006_004 - AGGIORNAMENTO E NUOVO INOLTRO
 L'ufficiale di anagrafe, sulla base dell'identificazione effettuata, provvede ad aggironare la *schede soggetto* e/o *schede famiglia*  sul sistema gestionale del Comune o ad assicurare la corretta transcodifica nella procedura di estrazione e predisposizione dei file di subentro, per dare seguito ad una nuova estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire l'inoltro al sistema ANPR.

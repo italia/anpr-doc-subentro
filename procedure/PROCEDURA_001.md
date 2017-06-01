@@ -6,11 +6,11 @@
 
 In quanto segue si riporta la procedura suggerita ai Comuni per la gestione delle anomalie: 
 
-- EA001 - *codice fiscale* lunghezza errata;
-- EA029 - *codice fiscale* calcolato dai *dati angrafici* del comune non presente in Anagrafe Tributaria; 
-- EA038 - soggetto con data di nascita non coincidente con quella presente nel *codice fiscale*;
-- EA042 - soggetto con sesso non coincidente con quella presente nel *codice fiscale*;
-- EA048 - *codice fiscale* formalmente errato.
+- EA001 - *Codice fiscale* di lunghezza errata;
+- EA029 - *Codice fiscale* calcolato dai *dati anagrafici* del comune non presente in AT;  
+- EA038 - Soggetto con data di nascita non coincidente con quella presente nel *codice fiscale*;
+- EA042 - Soggetto con sesso non coincidente con quella presente nel *codice fiscale*;
+- EA048 - *Codice fiscale* formalmente errato.
 
 
 
@@ -47,7 +47,8 @@ L'ufficiale di anagrafe, a valle del positivo riscontro con l'Agenzia delle entr
 L'ufficiale di anagrafe convoca il cittadino per verificare se lo stesso è in grado di attestare il *codice fiscale* ad esso attribuito dall'Agenzia delle entrate, ad esempio verificando la tessera sanitaria in suo possesso.
 
 ### AZIONE 001_006 - AGGIORNAMENTO CF E NUOVO INOLTRO
-L'ufficiale di anagrafe, a valle del positivo riscontro con il cittadino, provvede ad aggiornare il *codice fiscale* sul sistema gestionale del Comune per dare seguito ad una nuova estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire nuovamente l'inoltro al sistema ANPR.
+L'ufficiale di anagrafe, dopo aver verificato che il cittadino *NON* possiede un *codice fiscale* (ad esempio ciò si verifica per molti soggetti AIRE), lo cancella sul sistema gestionale del Comune per dare seguito ad una nuova estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire nuovamente l'inoltro al sistema ANPR.
+
 
 ### AZIONE 001_007 - CANCELLAZIONE CF E NUOVO INOLTRO
 L'ufficiale di anagrafe, non avendo la possibilità di riscontrare il *codice fiscale* provvede alla cancellazione dei dati relativi ai CF non corrispondenti sul sistema gestionale del Comune per dare seguito ad una nuova estrazione dei dati e alla predisposizione dei file di subentro al fine di provvedere ad eseguire nuovamente l'inoltro al sistema ANPR.

@@ -6,8 +6,8 @@
 
 In quanto segue si riporta la procedura suggerita ai Comuni per la gestione delle anomalie: 
 
-- EA002 - soggetto presente in Anagrafe Tributaria con *dati angrafici* uguali a quelli del comune ma *codice fiscale* del comune assente; 
-- EA003 - soggetto presente in Anagrafe Tributaria con *dati angrafici* uguali a quelli del comune ma *codice fiscale* diverso.
+- EA002 - Soggetto presente in AT con *dati anagrafici* uguali a quelli del comune ma *CF* del comune assente; 
+- EA003 - Soggetto presente in AT con *dati anagrafici* uguali a quelli del comune ma *CF* diverso.
 
 ## Precondizione
 Per dare seguito alla presente procedura è necessario che l'ufficiale d'anagrafe disponga:

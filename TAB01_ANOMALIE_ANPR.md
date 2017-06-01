@@ -6,10 +6,10 @@ La seguente tabella riporta le anomalie che il sistema ANPR rileva sui dati tras
 
 |codice anomalia | messaggio di errore | severità | procedura suggerita|
 | ------------- | ------------- | ------------- | ------------- |
-|	EA001	|	Codice fiscale di lunghezza errata | warning da rimuovere prima del subentro | [Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md) |
-|	EA002	|	Soggetto presente in AT con  DA uguali a quelli del comune ma CF del comune assente	| warning non bloccante | [Procedura 002 - Soggetto presente in AT con CF non corrispondente](procedure/PROCEDURA_002.md) |
-|	EA003	|	Soggetto presente in AT con  DA uguali a quelli del comune ma CF diverso	| warning non bloccante | [Procedura 002 - Soggetto presente in AT con CF non corrispondente](procedure/PROCEDURA_002.md) |
-|	EA029	|	Codice fiscale calcolato dai  DA del comune non presente in AT	| warning non bloccante | [Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md) |
+|	EA001	|	Codice fiscale di lunghezza errata | warning da rimuovere prima del subentro	| [Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md) |
+|	EA002	|	Soggetto presente in AT con dati anagrafici uguali a quelli del comune ma CF del comune assente	| warning non bloccante | [Procedura 002 - Soggetto presente in AT con CF non corrispondente](procedure/PROCEDURA_002.md) |
+|	EA003	|	Soggetto presente in AT con dati anagrafici uguali a quelli del comune ma CF diverso | warning non bloccante | [Procedura 002 - Soggetto presente in AT con CF non corrispondente](procedure/PROCEDURA_002.md) |
+|	EA029	|	Codice fiscale calcolato dai dati anagrafici del comune non presente in AT | warning non bloccante | [Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md) |
 |	EA030	|	CF di un soggetto residente  in piu' comuni	| warning non bloccante | [Procedura 005 - Duplicazione scheda anagrafica](procedure/PROCEDURA_005.md) |
 |	EA031	|	CF di un soggetto residente  sia in Italia che all'estero (AIRE)	| warning da rimuovere prima del subentro | [Procedura 005 - Duplicazione scheda anagrafica](procedure/PROCEDURA_005.md) |
 |	EA036	|	Soggetto registrato piu' volte sia con il CF base che con quello che risolve l'omocodia  	| warning non bloccante | [Procedura 005 - Duplicazione scheda anagrafica](procedure/PROCEDURA_005.md) |
@@ -17,10 +17,10 @@ La seguente tabella riporta le anomalie che il sistema ANPR rileva sui dati tras
 |	EA040	|	Soggetto registrato piu' volte  sia con il CF collegato che con l'ultimo	| warning non bloccante | [Procedura 005 - Duplicazione scheda anagrafica](procedure/PROCEDURA_005.md) |
 |	EA042	|	Soggetto con sesso non coincidente  con quello presente nel CF	| warning da rimuovere prima del subentro | [Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md) |
 |	EA047	|	Soggetto presente  nell'archivio AIRE e nel MAE dei cittadini non residenti (IRREPERIBILI, RIMPATRIATI, DECEDUTI,  TRASFERITI)	| warning non bloccante | NON APPLICATA: in attesa di collegamento con MAE |
-|	EA048	|	Codice fiscale formalmente errato	| warning da rimuovere prima del subentro | [Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md) |
-|	EC001	|	Codice stato civile [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
-|	EC002	|	Codice relazione di parentela [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
-|	EC003	|	Codice legame scheda convivenza [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EA048	|	Codice fiscale formalmente errato | warning da rimuovere prima del subentro, **restituito da Agenzia delle Entrate** | [Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md) |
+|	EC001	| Codice stato civile @ inesistente sulla tabella di riferimento: [Tabella 1 Stato civile](https://anpr.readthedocs.io/en/latest/tab_stato_civile.html) | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC002	| Codice relazione di parentela [@] inesistente sulla tabella di riferimento: Tabella 5 Relazione di parentela | warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+|	EC003	|	Codice legame scheda convivenza [@] inesistente sulla tabella di riferimento: Tabella 6 Legame convivenza | warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 |	EC004	|	Codice motivo costituzione della famiglia [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 |	EC005	|	Codice legame specie convivenza [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 |	EC006	|	Codice motivo iscrizione ANPR [@] inesistente sulla tabella di riferimento [Codice-Tabella]	| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
@@ -59,7 +59,7 @@ La seguente tabella riporta le anomalie che il sistema ANPR rileva sui dati tras
 |	EHR73	|	Anno dell'atto di annullamento del matrimonio [@] non valido	| warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
 |	EN001	|	Nome file [@] formalmente non corretto	| errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
 |	EN002	|	La dimensione del file  [@] compresso supera il valore consentito [@]	| errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
-|	EN003	|	Lo stato del subentro attuale [@] non consente l'invio del file 	| errore | [Procedura 010 - Inoltro file di subentro disabilitato](procedure/PROCEDURA_001.md) |
+|	EN003	|	Lo stato del subentro attuale [@] non consente l'invio del file 	| errore | [Procedura 010 - Inoltro file di subentro disabilitato](procedure/PROCEDURA_010.md) |
 |	EN007	|	E' gia' presente un file con lo stesso nome [@]	| errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
 |	EN008	|	Il numero progressivo [@] indicato nel nome del file supera il totale previsto [@]	| errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
 |	EN009	|	Il formato del file APR decompresso non e' XML	| errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
