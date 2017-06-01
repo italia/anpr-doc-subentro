@@ -13,8 +13,8 @@ In quanto segue si riporta la procedura suggerita ai Comuni per la gestione dell
 - EC005 - Codice legame specie convivenza inesistente sulla tabella di riferimento [Tabella 27 Specie della convivenza](https://anpr.readthedocs.io/en/latest/tab_specie_della_convivenza.html);
 - EC006 - Codice motivo iscrizione ANPR inesistente sulla tabella di riferimento [Tabella 7 Motivi di iscrizione in Anagrafe](https://anpr.readthedocs.io/en/latest/tab_motivi_di_iscrizione_in_anagrafe.html);
 - EC007 - Comune/provincia di nascita inesistente o non valido alla data di nascita [Tabella 3 Comuni](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html);	
-- EC008 - Impossibile verificare la validità del comune di nascita per la presenza di più occorrenze [tabella di riferimento 03](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html);
-- EC009 - Codice ISTAT del comune di nascita incongruente con quello presente sulla tabella di riferimento [tabella di riferimento 03](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html);
+- EC008 - Data di nascita non indicata - impossibile verificare la validita' del comune di nascita per la presenza di piu' occorrenze [Tabella 3 Comuni](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html);
+- EC009 - Codice ISTAT del comune di nascita incongruente con quello presente sulla tabella di riferimento [Tabella 3 Comuni](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html);
 - EC030 - Stato estero di nascita inesistente sulla [Tabella 2 Stati Esteri](https://anpr.readthedocs.io/en/latest/tab_stati_esteri.html);
 - EC032 - Codice consolato di residenza inesistente sulla tabella di riferimento [Tabella 24 Elenco Consolati **NON PRESENTE SU [https://anpr.readthedocs.io/en/latest/](https://anpr.readthedocs.io/en/latest/)**]);
 - EC036 -  Stato estero cittadinanza inesistente sulla tabella di riferimento: [Tabella 2 Stati Esteri](https://anpr.readthedocs.io/en/latest/tab_stati_esteri.html);
@@ -36,9 +36,9 @@ In quanto segue si riporta la procedura suggerita ai Comuni per la gestione dell
 - EC096 - Comune/provincia di registrazione atto di cessazione/annullamento matrimonio inesistente;
 - EC164 - Codice stato istruttoria per accertamento espatrio non previsto. Indicare 1, 2 o 3 ;
 - EC165 - Codice tipo fine unione non presente sulla tabella di riferimento [Tabella 31 Tipo cessazione matrimonio](https://anpr.readthedocs.io/en/latest/tab_tipo_cessazione_matrimonio.html);
-- EN064 - Grado di parentela non più valido, come segnalato nella [tabella di riferimento 05](https://anpr.readthedocs.io/en/latest/tab_relazione_di_parentela___famiglia.html);
-- EN242 - Codice tipo tribunale non valido, poichè non previsto in [tabella di riferimento 32](https://anpr.readthedocs.io/en/latest/tab_tipo_tribunale.html);
-- EN347 - Codice ISTAT utilizzato corrisponde a un codice di variazione, vedi [tabella di riferimento 03](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html)
+- EN064 - Grado di parentela non più valido;
+- EN242 - Codice tipo tribunale non valido, poichè non previsto in [Tabella 32 Tipo tribunale](https://anpr.readthedocs.io/en/latest/tab_tipo_tribunale.html);
+- EN347 - Codice ISTAT utilizzato corrisponde a un codice di variazione
 
 
 >**WARNING NON RISULTANO USATE LE TABELLE**
