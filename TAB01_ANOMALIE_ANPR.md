@@ -103,6 +103,7 @@ Per semplificare la lettura si sono classificate le anomalie in due macro-catego
 | ES128 | Data prima iscrizione del soggetto o  data decorrenza residenza o data ultimo aggiornamento assente |warning non bloccante||
 
 
+
 ##Anomalie sui file di subentro
 
 |codice anomalia | messaggio di errore | severità | procedura suggerita|
