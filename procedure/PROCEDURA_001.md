@@ -12,9 +12,7 @@ In quanto segue si riporta la procedura suggerita ai Comuni per la gestione dell
 - EA042 - Soggetto con sesso non coincidente con quella presente nel *codice fiscale*;
 - EA048 - *Codice fiscale* formalmente errato.
 
-In fase di subentro ANPR segnala i cittadini AIRE che non sono mai entrati in Italia (perché figli di italiani, ma nati all'estero) perché sconosciuto all'Agenzia delle Entrate, ma in questo caso l'anomalia NON può essere sanata perché l'attribuzione del CF NON è prevista dalla legge. Le modifiche vanno fatte solo per i cittadini APR.
-
-
+In fase di subentro ANPR segnala i cittadini AIRE che non sono mai entrati in Italia (nel caso di figli di italiani, ma nati all'estero) perché sconosciuto all'Agenzia delle Entrate, ma in questo caso l'anomalia NON può essere sanata perché l'attribuzione del CF deve essere preceduta una procedura di allineamento con gli schedari consolati, prevista dalla legge. Le modifiche vanno fatte solo per i cittadini APR.
 
 ## Precondizione
 Per dare seguito alla presente procedura è necessario che l'ufficiale d'anagrafe disponga:
