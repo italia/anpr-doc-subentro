@@ -9,7 +9,6 @@ Per semplificare la lettura si sono classificate le anomalie in due macro-catego
 - **Anomalie sui dati anagrafici** la cui correzione vedrà direttamente coinvolto gli ufficiali anagrafici nel dare seguito alle necessarie istruttorie per constatare la corretto valorizzazione dei dati anagrafici stessi;
 - **Anomalie sui file di subentro** che riguardano la formazione dei file per il trasferimento dall’APR locale all’ANPR e, per la loro natura, vedano direttamente interessati i tecnici informatici che predispongono i file.
 
-
 ## Anomalie sui dati anagrafici
 
 |codice anomalia | messaggio di errore | severità | procedura suggerita|
@@ -25,12 +24,12 @@ Per semplificare la lettura si sono classificate le anomalie in due macro-catego
 | EA040 | Soggetto registrato piu' volte  sia con il CF collegato che con l'ultimo | warning non bloccante | [Procedura 005 - Duplicazione scheda anagrafica](procedure/PROCEDURA_005.md) |
 | EA042 | Soggetto con sesso non coincidente  con quello presente nel CF | warning da rimuovere prima del subentro | [Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md) |
 | EA048 | Codice fiscale formalmente errato | warning da rimuovere prima del subentro, **restituito da Agenzia delle Entrate** | [Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md) |
-| EAA30 | Soggetto  presente in AT con dati anagrafici diversi | Restituito da Agenzia delle Entrate | |
-| EAA31 | Soggetto  presente in AT con dati anagrafici diversi | Restituito da Agenzia delle Entrate | |
-| EAA40 | Soggetto  presente in AT con altri codici fiscali piu' recenti | Restituito da Agenzia delle Entrate | |
-| EAA41 | Soggetto  presente in AT con altri codici fiscali piu' recenti | Restituito da Agenzia delle Entrate | |
-| EAA50 | Codice fiscale base di omocodice | Restituito da Agenzia delle Entrate | |
-| EAA51 | Codice fiscale base di omocodice | Restituito da Agenzia delle Entrate | |
+| EAA30 | Soggetto  presente in AT con dati anagrafici diversi | warning non bloccante, **restituito da Agenzia delle Entrate** |[Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md)|
+| EAA31 | Soggetto  presente in AT con dati anagrafici diversi | warning non bloccante, **restituito da Agenzia delle Entrate** |[Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md)|
+| EAA40 | Soggetto  presente in AT con altri codici fiscali piu' recenti | warning non bloccante, **restituito da Agenzia delle Entrate** |[Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md)|
+| EAA41 | Soggetto  presente in AT con altri codici fiscali piu' recenti | warning non bloccante, **restituito da Agenzia delle Entrate** |[Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md)|
+| EAA50 | Codice fiscale base di omocodice | warning non bloccante, **restituito da Agenzia delle Entrate** |[Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md)|
+| EAA51 | Codice fiscale base di omocodice | warning non bloccante, **restituito da Agenzia delle Entrate** |[Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md) |
 | EC001 | Codice stato civile @ inesistente sulla tabella di riferimento [Tabella 1 Stato civile](https://anpr.readthedocs.io/en/latest/tab_stato_civile.html) | warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 | EC002 | Codice relazione di parentela inesistente sulla tabella di riferimento [Tabella 5 Relazione di parentela](https://anpr.readthedocs.io/en/latest/tab_relazione_di_parentela___famiglia.html) | warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 | EC003 | Codice legame scheda convivenza inesistente sulla tabella di riferimento [Tabella 6 Legame convivenza](https://anpr.readthedocs.io/en/latest/tab_legame____convivenza.html) | warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
@@ -43,7 +42,7 @@ Per semplificare la lettura si sono classificate le anomalie in due macro-catego
 | EC030 | Stato estero di nascita inesistente sulla [Tabella 2 Stati Esteri](https://anpr.readthedocs.io/en/latest/tab_stati_esteri.html) | warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 | EC032 | Codice consolato di residenza inesistente sulla tabella di riferimento [Tabella 24 Elenco Consolati **NON PRESENTE SU [https://anpr.readthedocs.io/en/latest/](https://anpr.readthedocs.io/en/latest/)**])| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 | EC036 | Stato estero cittadinanza inesistente sulla tabella di riferimento: [Tabella 2 Stati Esteri](https://anpr.readthedocs.io/en/latest/tab_stati_esteri.html) | warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
-| EC042 | EC042 - Comune/provincia di matrimonio inesistente | warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+| EC042 | EC042 - Comune/provincia di matrimonio inesistente [Tabella 3 Comuni](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html)| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 | EC053 | Stato estero di residenza inesistente sulla tabella di riferimento [Tabella 2 Stati Esteri](https://anpr.readthedocs.io/en/latest/tab_stati_esteri.html) | warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 | EC060 | Campo codice motivo iscrizione AIRE inesistente sulla tabella di riferimento [Tabella 19 Motivi iscrizione AIRE](https://anpr.readthedocs.io/en/latest/tab_motivi_iscrizione_aire.html) | warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 | EC061 | Campo codice Iniziativa movimenti anagrafici AIRE inesistente sulla tabella di riferimento [Tabella 20 Iniziativa iscrizione AIRE](https://anpr.readthedocs.io/en/latest/tab_iniziativa_iscrizione_aire.html)| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
@@ -57,11 +56,11 @@ Per semplificare la lettura si sono classificate le anomalie in due macro-catego
 | EC078 | Comune di rilascio carta identità inesistente o non valido alla data rilascio [Tabella 3 Comuni](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html) | warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 | EC081 | Comune/provincia di registrazione atto di matrimonio @ inesistente | warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 | EC087 | Comune di rilascio permesso di soggiorno inesistente o non valido alla data di rilascio | warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
-| EC096 | Comune/provincia di registrazione atto di cessazione/annullamento matrimonio @ inesistente | warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+| EC096 | Comune/provincia di registrazione atto di cessazione/annullamento matrimonio @ inesistente [Tabella 3 Comuni](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html)| warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 | EC164 | Codice stato istruttoria per accertamento espatrio non previsto. Indicare 1, 2 o 3 | warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
-| EC165 | Codice tipo fine unione non presente sulla tabella di riferimento [Tabella 31 Tipo cessazione matrimonio](https://anpr.readthedocs.io/en/latest/tab_tipo_cessazione_matrimonio) | warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
-| EC166 | Comune/provincia di registrazione atto di nascita @ inesistente | warning non bloccante ||
-| EC177 | Codice tipo fine legame inesistente sulla tabella di riferimento | warning non bloccante || 
+| EC165 | Codice tipo fine unione non presente sulla tabella di riferimento [Tabella 43   Cessazione unione civile – convivenze](https://anpr.readthedocs.io/en/latest/tab_cessazione_unione_civile___convivenze.html)| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
+| EC166 | Comune/provincia di registrazione atto di nascita @ inesistente [Tabella 3 Comuni](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html)| warning non bloccante |[Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md)|
+| EC177 | Codice tipo fine legame inesistente sulla tabella di riferimento [Tabella 43   Cessazione unione civile – convivenze](https://anpr.readthedocs.io/en/latest/tab_cessazione_unione_civile___convivenze.html)| warning non bloccante || 
 | EF003 | Sono presenti piu' schede famiglia/convivenza con lo stesso identificativo attribuito dal comune | warning da rimuovere prima del subentro | [Procedura 005 - Duplicazione scheda anagrafica](procedure/PROCEDURA_005.md) |
 | EF004 | Progressivo ordine gia' assegnato ad altro soggetto della scheda famiglia/convivenza | warning non bloccante | [Procedura 007 - Anomalia in scheda anagrafica](procedure/PROCEDURA_007.md) |
 | EF008 | Intestatario della scheda famiglia/convivenza assente | warning da rimuovere prima del subentro | [Procedura 007 - Anomalia in scheda anagrafica](procedure/PROCEDURA_007.md) |
@@ -100,6 +99,7 @@ Per semplificare la lettura si sono classificate le anomalie in due macro-catego
 | ES092 | Soggetto senza scheda famiglia/convivenza associata | errore | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
 | ES127 | Data prima iscrizione del soggetto @ deve essere minore o uguale della data decorrenza residenza @  e  della data ultimo aggiornamento @ | warning non bloccante ||
 | ES128 | Data prima iscrizione del soggetto o  data decorrenza residenza o data ultimo aggiornamento assente |warning non bloccante||
+| EN383 | Presenza dei dati della parte unita civilmente (o convivente)  e assenza dei dati relativi alla unione civile (o convivenza di fatto) | warning non bloccante||
 
 
 
@@ -136,7 +136,7 @@ Per semplificare la lettura si sono classificate le anomalie in due macro-catego
 | EN040 | Esiste gia' una fornitura con progressivo @ in stato OK | errore | [Procedura 010 - Inoltro file di subentro disabilitato](procedure/PROCEDURA_001.md) |
 | EN041 | Piano di subentro gia' presente per il comune | errore | |
 | EN063 | Famiglia/convivenza del soggetto non presente nello stesso file di subentro | warning non bloccante | |
- 
+| EN362 | Prima di effettuare l'invio, occorre indicare l'indirizzo di PEC cui recapitare l'esito (funzione Amministrazione) | errore || 
 
 	Legenda
 	  @
