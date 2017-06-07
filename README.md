@@ -27,8 +27,8 @@ In sintesi le azioni di verifica realizzate da ANPR, fatti salvi gli errori che 
 
 Nel ricordare che l'obiettivo ultimo del subentro è quello di assicurare che i dati presenti nelle APR locali siano trasferiti al sistema ANPR e nel contempo si assicuri l'allineamento dei codici fiscali associati ai soggetti così come attribuiti dall'Agenzia delle Entrate, si evidenzia che in caso di disallineamento tra il codice fiscale registrato dall'APR e quello attribuito dall'Agenzia delle Entrate, l'ufficiale di anagrafe deve dare seguito ai necessari accertamenti al fine di verificare che i dati registrati nell'APR o nell'AIRE locali corrispondano alle informazioni registrate sugli Atti dello stato civile. Nel caso in cui la correzione dei dati anagrafici in possesso dell'Agenzia delle Entrate determini la necessità di mutare il codice fiscale attribuito al cittadino, si suggerisce che l'ufficiale d'anagrafe, per sanare la circostanza rilevata, convochi il cittadino indicandogli le seguenti possibilità:
 
-- applicazione dell'[articolo 36](http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2000-10-03;396~art36) del DPR 396 del 3 novembre 2000 "Regolamento per la revisione e la semplificazione dell'ordinamento dello stato civile";
-- applicazione dell'[articolo 89](http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2000-10-03;396~art89) del DPR 396 del 3 novembre 2000 "Regolamento per la revisione e la semplificazione dell'ordinamento dello stato civile";
+- applicazione dell'[articolo 36](http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2000-10-03;396%7Eart36) del DPR 396 del 3 novembre 2000 "Regolamento per la revisione e la semplificazione dell'ordinamento dello stato civile";
+- applicazione dell'[articolo 89](http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2000-10-03;396%7Eart89) del DPR 396 del 3 novembre 2000 "Regolamento per la revisione e la semplificazione dell'ordinamento dello stato civile";
 - invito al cittadino a rivolgersi all'Agenzia delle Entrate per una nuova assegnazione di codice fiscale.
 
 
