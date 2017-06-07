@@ -26,10 +26,10 @@ Per semplificare la lettura si sono classificate le anomalie in due macro-catego
 | EA048 | Codice fiscale formalmente errato | warning da rimuovere prima del subentro, **restituito da Agenzia delle Entrate** | [Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md) |
 | EAA30 | Soggetto  presente in AT con dati anagrafici diversi | warning non bloccante, **restituito da Agenzia delle Entrate** |[Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md)|
 | EAA31 | Soggetto  presente in AT con dati anagrafici diversi | warning non bloccante, **restituito da Agenzia delle Entrate** |[Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md)|
-| EAA40 | Soggetto  presente in AT con altri codici fiscali piu' recenti | warning non bloccante, **restituito da Agenzia delle Entrate** |[Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md)|
-| EAA41 | Soggetto  presente in AT con altri codici fiscali piu' recenti | warning non bloccante, **restituito da Agenzia delle Entrate** |[Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md)|
-| EAA50 | Codice fiscale base di omocodice | warning non bloccante, **restituito da Agenzia delle Entrate** |[Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md)|
-| EAA51 | Codice fiscale base di omocodice | warning non bloccante, **restituito da Agenzia delle Entrate** |[Procedura 001 - Errore nel CF](procedure/PROCEDURA_001.md) |
+| EAA40 | Soggetto  presente in AT con altri codici fiscali piu' recenti | warning non bloccante, **restituito da Agenzia delle Entrate** |[Procedura 002 - Soggetto presente in AT con CF non corrispondente](procedure/PROCEDURA_002.md)|
+| EAA41 | Soggetto  presente in AT con altri codici fiscali piu' recenti | warning non bloccante, **restituito da Agenzia delle Entrate** |[Procedura 002 - Soggetto presente in AT con CF non corrispondente](procedure/PROCEDURA_002.md)|
+| EAA50 | Codice fiscale base di omocodice | warning non bloccante, **restituito da Agenzia delle Entrate** |[Procedura 002 - Soggetto presente in AT con CF non corrispondente](procedure/PROCEDURA_002.md)|
+| EAA51 | Codice fiscale base di omocodice | warning non bloccante, **restituito da Agenzia delle Entrate** |[Procedura 002 - Soggetto presente in AT con CF non corrispondente](procedure/PROCEDURA_002.md)|
 | EC001 | Codice stato civile @ inesistente sulla tabella di riferimento [Tabella 1 Stato civile](https://anpr.readthedocs.io/en/latest/tab_stato_civile.html) | warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 | EC002 | Codice relazione di parentela inesistente sulla tabella di riferimento [Tabella 5 Relazione di parentela](https://anpr.readthedocs.io/en/latest/tab_relazione_di_parentela___famiglia.html) | warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 | EC003 | Codice legame scheda convivenza inesistente sulla tabella di riferimento [Tabella 6 Legame convivenza](https://anpr.readthedocs.io/en/latest/tab_legame____convivenza.html) | warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
@@ -60,7 +60,7 @@ Per semplificare la lettura si sono classificate le anomalie in due macro-catego
 | EC164 | Codice stato istruttoria per accertamento espatrio non previsto. Indicare 1, 2 o 3 | warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 | EC165 | Codice tipo fine unione non presente sulla tabella di riferimento [Tabella 43   Cessazione unione civile – convivenze](https://anpr.readthedocs.io/en/latest/tab_cessazione_unione_civile___convivenze.html)| warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 | EC166 | Comune/provincia di registrazione atto di nascita @ inesistente [Tabella 3 Comuni](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html)| warning non bloccante |[Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md)|
-| EC177 | Codice tipo fine legame inesistente sulla tabella di riferimento [Tabella 43   Cessazione unione civile – convivenze](https://anpr.readthedocs.io/en/latest/tab_cessazione_unione_civile___convivenze.html)| warning non bloccante || 
+| EC177 | Codice tipo fine legame inesistente sulla tabella di riferimento [Tabella 43   Cessazione unione civile – convivenze](https://anpr.readthedocs.io/en/latest/tab_cessazione_unione_civile___convivenze.html)| warning non bloccante |[Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md)| 
 | EF003 | Sono presenti piu' schede famiglia/convivenza con lo stesso identificativo attribuito dal comune | warning da rimuovere prima del subentro | [Procedura 005 - Duplicazione scheda anagrafica](procedure/PROCEDURA_005.md) |
 | EF004 | Progressivo ordine gia' assegnato ad altro soggetto della scheda famiglia/convivenza | warning non bloccante | [Procedura 007 - Anomalia in scheda anagrafica](procedure/PROCEDURA_007.md) |
 | EF008 | Intestatario della scheda famiglia/convivenza assente | warning da rimuovere prima del subentro | [Procedura 007 - Anomalia in scheda anagrafica](procedure/PROCEDURA_007.md) |
@@ -73,8 +73,8 @@ Per semplificare la lettura si sono classificate le anomalie in due macro-catego
 | EHR73 | Anno dell'atto di annullamento del matrimonio @ non valido | warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
 | EN064 | Grado di parentela @ - @ non piu' valido | warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 | EN242 | Codice tipo tribunale non valido, poichè non previsto in [Tabella 32 Tipo tribunale](https://anpr.readthedocs.io/en/latest/tab_tipo_tribunale.html) | warning da rimuovere prima del subentro | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
-| EN263 | La data di risoluzione deve essere uguale o successiva alla data di stipula del contratto di convivenza | Errore | |
-| EN293 | In presenza di cessazione matrimonio o vedovanza inserire i dati del coniuge | Errore | |
+| EN263 | La data di risoluzione deve essere uguale o successiva alla data di stipula del contratto di convivenza | Errore | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
+| EN293 | In presenza di cessazione matrimonio o vedovanza inserire i dati del coniuge | Errore | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
 | EN306 | Presenza del coniuge e assenza del matrimonio | warning da rimuovere prima del subentro | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
 | EN347 | Codice istat utilizzato corrisponde a un codice di variazione | warning non bloccante | [Procedura 006 - Codice inesistente su tabella di riferimento](procedure/PROCEDURA_006.md) |
 | ES007 | Soggetto gia' presente in ANPR | warning da rimuovere prima del subentro | [Procedura 005 - Duplicazione scheda anagrafica](procedure/PROCEDURA_005.md) |
@@ -86,7 +86,7 @@ Per semplificare la lettura si sono classificate le anomalie in due macro-catego
 | ES027 | La descrizione della localita' e' obbligatoria per la residenza estera | warning non bloccante | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
 | ES028 | Per la residenza estera deve essere presente almeno uno tra i seguenti campi: indirizzo, presso, contea-provincia, CAP | warning non bloccante | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
 | ES048 | Occorre impostare in alternativa  il comune o la localita' estera del matrimonio | warning non bloccante | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
-| ES049 | Indicare almeno il cognome o il nome del soggetto | warning non bloccante | |
+| ES049 | Indicare almeno il cognome o il nome del soggetto | warning non bloccante | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
 | ES050 | Occorre impostare in alternativa codice  comune ISTAT  o stato estero di nascita | warning non bloccante | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
 | ES057 | Specificare in alternativa che il soggetto e' senza cognome o senza nome | warning da rimuovere prima del subentro | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
 | ES061 | Il cognome deve essere assente se il campo SenzaCognome e' impostato | warning da rimuovere prima del subentro | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
@@ -97,9 +97,9 @@ Per semplificare la lettura si sono classificate le anomalie in due macro-catego
 | ES078 | La data di decorrenza iscrizione AIRE @ deve essere maggiore uguale 01/07/1990 ma non a  a quella corrente | warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
 | ES079 | Anno espatrio @ deve essere maggiore uguale anno nascita @ e minore uguale anno corrente | warning da rimuovere prima del subentro | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
 | ES092 | Soggetto senza scheda famiglia/convivenza associata | errore | [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
-| ES127 | Data prima iscrizione del soggetto @ deve essere minore o uguale della data decorrenza residenza @  e  della data ultimo aggiornamento @ | warning non bloccante ||
-| ES128 | Data prima iscrizione del soggetto o  data decorrenza residenza o data ultimo aggiornamento assente |warning non bloccante||
-| EN383 | Presenza dei dati della parte unita civilmente (o convivente)  e assenza dei dati relativi alla unione civile (o convivenza di fatto) | warning non bloccante||
+| ES127 | Data prima iscrizione del soggetto @ deve essere minore o uguale della data decorrenza residenza @  e  della data ultimo aggiornamento @ | warning non bloccante | [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
+| ES128 | Data prima iscrizione del soggetto o  data decorrenza residenza o data ultimo aggiornamento assente |warning non bloccante| [Procedura 003 - Problemi con riferimento temporale](procedure/PROCEDURA_003.md) |
+| EN383 | Presenza dei dati della parte unita civilmente (o convivente)  e assenza dei dati relativi alla unione civile (o convivenza di fatto) | warning non bloccante| [Procedura 004 - Dati obbligatori popolati non correttamente](procedure/PROCEDURA_004.md) |
 
 
 
@@ -125,18 +125,18 @@ Per semplificare la lettura si sono classificate le anomalie in due macro-catego
 | EN023 | Totale schede convivenza @ dichiarato nel file @ incongruente con quello calcolato @ | errore | [Procedura 009 - Errori di quadratura](procedure/PROCEDURA_009.md) |
 | EN024 | Totale schede convivenza @ dichiarato per l'intera fornitura @ incongruente con quello calcolato @ | errore | [Procedura 009 - Errori di quadratura](procedure/PROCEDURA_009.md) |
 | EN031 | I dati del gruppo "Dati Invio" devono essere obbligatoriamente impostati quando il totale invii >1 | errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
-| EN032 | La data di invio del file @ deve essere compresa tra la data di inizio e la data fine subentro pianificate | errore | [Procedura 010 - Inoltro file di subentro disabilitato](procedure/PROCEDURA_001.md) |
-| EN033 | La data di inizio @ deve essere <= della data fine @ | errore | |
-| EN034 | Impossibile inviare altri file per un comune gia' subentrato | errore | [Procedura 010 - Inoltro file di subentro disabilitato](procedure/PROCEDURA_001.md) |
-| EN035 | File piano subentro errato o incompleto | errore | |
+| EN032 | La data di invio del file @ deve essere compresa tra la data di inizio e la data fine subentro pianificate | errore | [Procedura 010 - Inoltro file di subentro disabilitato](procedure/PROCEDURA_010.md) |
+| EN033 | La data di inizio @ deve essere <= della data fine @ | errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
+| EN034 | Impossibile inviare altri file per un comune gia' subentrato | errore | [Procedura 010 - Inoltro file di subentro disabilitato](procedure/PROCEDURA_010.md) |
+| EN035 | File piano subentro errato o incompleto | errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
 | EN036 | File inviato non coerente con il Tipo file selezionato | errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
-| EN037 | Esiste gia' una precedente fornitura di file attualmente in elaborazione | errore | [Procedura 010 - Inoltro file di subentro disabilitato](procedure/PROCEDURA_001.md) |
+| EN037 | Esiste gia' una precedente fornitura di file attualmente in elaborazione | errore | [Procedura 010 - Inoltro file di subentro disabilitato](procedure/PROCEDURA_010.md) |
 | EN038 | Il numero totale file da inviare @ indicato nel nome del file supera il totale previsto @ | errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
 | EN039 | Codice ISTAT del comune che invia il file @ incongruente con il  codice ISTAT del comune indicato nel nome del file @ | errore | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
-| EN040 | Esiste gia' una fornitura con progressivo @ in stato OK | errore | [Procedura 010 - Inoltro file di subentro disabilitato](procedure/PROCEDURA_001.md) |
-| EN041 | Piano di subentro gia' presente per il comune | errore | |
-| EN063 | Famiglia/convivenza del soggetto non presente nello stesso file di subentro | warning non bloccante | |
-| EN362 | Prima di effettuare l'invio, occorre indicare l'indirizzo di PEC cui recapitare l'esito (funzione Amministrazione) | errore || 
+| EN040 | Esiste gia' una fornitura con progressivo @ in stato OK | errore | [Procedura 010 - Inoltro file di subentro disabilitato](procedure/PROCEDURA_010.md) |
+| EN041 | Piano di subentro gia' presente per il comune | errore | [Procedura 010 - Inoltro file di subentro disabilitato](procedure/PROCEDURA_010.md) |
+| EN063 | Famiglia/convivenza del soggetto non presente nello stesso file di subentro | warning non bloccante | [Procedura 008 - Errore predisposizione file di subentro](procedure/PROCEDURA_008.md) |
+| EN362 | Prima di effettuare l'invio, occorre indicare l'indirizzo di PEC cui recapitare l'esito (funzione Amministrazione) | errore | [Procedura 010 - Inoltro file di subentro disabilitato](procedure/PROCEDURA_010.md)| 
 
 	Legenda
 	  @

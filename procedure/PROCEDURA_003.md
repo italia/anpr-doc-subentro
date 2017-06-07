@@ -9,6 +9,8 @@ In quanto segue si riporta la procedura suggerita ai Comuni per la gestione dell
 - EHR69 - Anno dell'atto di nascita non valido;
 - EHR70 - Anno dell'atto di morte non valido;
 - EHR73 - Anno dell'atto di annullamento del matrimonio non valido;
+- EN263 - La data di risoluzione deve essere uguale o successiva alla data di stipula del contratto di convivenza;
+- EN293 - In presenza di cessazione matrimonio o vedovanza inserire i dati del coniuge;
 - ES008 - Data nascita successiva alla data di richiesta;
 - ES009 - Data validità cittadinanza deve essere maggiore uguale della data di nascita ma non a a quella corrente; 
 - ES010 - Data matrimonio deve essere successiva alla data di nascita ma non a a quella corrente;
@@ -17,7 +19,9 @@ In quanto segue si riporta la procedura suggerita ai Comuni per la gestione dell
 - ES063 - La data nascita deve avere solo l'anno se il campo senzaGiornoMese è impostato a 1;
 - ES066 - La data nascita deve avere solo il mese e l'anno se il campo senzaGiorno e' impostato a 1;
 - ES078 - La data di decorrenza iscrizione AIRE deve essere maggiore uguale 01/07/1990 ma non a a quella corrente;
-- ES079 - Anno espatrio deve essere maggiore uguale anno nascita e minore uguale anno corrente.
+- ES079 - Anno espatrio deve essere maggiore uguale anno nascita e minore uguale anno corrente;
+- ES127 - Data prima iscrizione del soggetto @ deve essere minore o uguale della data decorrenza residenza e  della data ultimo aggiornamento;
+- ES128 - Data prima iscrizione del soggetto o  data decorrenza residenza o data ultimo aggiornamento assente.
 
 
 ## Precondizione

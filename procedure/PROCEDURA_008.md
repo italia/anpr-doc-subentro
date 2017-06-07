@@ -6,16 +6,19 @@
 
 In quanto segue si riporta la procedura suggerita ai Comuni per la gestione delle anomalie: 
 
-- EN001 - Nome file formalmente non corretto		
-- EN002 - La dimensione del file compresso supera il valore consentito 
-- EN007 - E' gia' presente un file con lo stesso nome 
-- EN008 - Il numero progressivo indicato nel nome del file supera il totale previsto 
-- EN009 - Il formato del file APR decompresso non e' XML		
-- EN010 - Il formato del file AIRE decompresso non e' TXT			
-- EN031 - I dati del gruppo "Dati Invio" devono essere obbligatoriamente impostati quando il totale invii >1	
-- EN036 - File inviato non coerente con il Tipo file selezionato		
-- EN038 - Il numero totale file da inviare indicato nel nome del file supera il totale previsto
-- EN039 - Codice ISTAT del comune che invia il file incongruente con il codice ISTAT del comune indicato nel nome del file
+- EN001 - Nome file formalmente non corretto;
+- EN002 - La dimensione del file compresso supera il valore consentito; 
+- EN007 - E' gia' presente un file con lo stesso nome;
+- EN008 - Il numero progressivo indicato nel nome del file supera il totale previsto; 
+- EN009 - Il formato del file APR decompresso non e' XML;
+- EN010 - Il formato del file AIRE decompresso non e' TXT;			
+- EN031 - I dati del gruppo "Dati Invio" devono essere obbligatoriamente impostati quando il totale invii >1;
+- EN032 - La data di inizio deve essere <= della data fine;
+- EN035 - File piano subentro errato o incompleto; 
+- EN036 - File inviato non coerente con il Tipo file selezionato;
+- EN038 - Il numero totale file da inviare indicato nel nome del file supera il totale previsto;
+- EN039 - Codice ISTAT del comune che invia il file incongruente con il codice ISTAT del comune indicato nel nome del file;
+- EN063 - Famiglia/convivenza del soggetto non presente nello stesso file di subentro.
 
 
 ## Precondizione

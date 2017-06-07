@@ -11,12 +11,14 @@ In quanto segue si riporta la procedura suggerita ai Comuni per la gestione dell
 - ES027 - La descrizione della località è obbligatoria per la residenza estera;
 - ES028 - Per la residenza estera deve essere presente almeno uno tra i seguenti campi: indirizzo, presso, contea-provincia, CAP;
 - ES048 - Occorre impostare in alternativa il comune o la località estera del matrimonio;
+- ES049 - Indicare almeno il cognome o il nome del soggetto;
 - ES050 - Occorre impostare in alternativa codice comune ISTAT o stato estero di nascita;
 - ES057 - Specificare in alternativa che il soggetto è senza cognome o senza nome;
 - ES061 - Il cognome deve essere assente se il campo SenzaCognome è impostato;
 - ES062 - Il nome deve essere assente se il campo SenzaNome è impostato;
 - ES067 - Occorre impostare in alternativa il comune o la località estera di decesso del coniuge;
-- ES092	- Soggetto senza scheda famiglia/convivenza associata.
+- ES092	- Soggetto senza scheda famiglia/convivenza associata;
+- EN383 - Presenza dei dati della parte unita civilmente (o convivente)  e assenza dei dati relativi alla unione civile (o convivenza di fatto).
 
 
 

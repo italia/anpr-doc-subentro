@@ -36,26 +36,11 @@ In quanto segue si riporta la procedura suggerita ai Comuni per la gestione dell
 - EC096 - Comune/provincia di registrazione atto di cessazione/annullamento matrimonio inesistente;
 - EC164 - Codice stato istruttoria per accertamento espatrio non previsto. Indicare 1, 2 o 3 ;
 - EC165 - Codice tipo fine unione non presente sulla tabella di riferimento [Tabella 31 Tipo cessazione matrimonio](https://anpr.readthedocs.io/en/latest/tab_tipo_cessazione_matrimonio.html);
+- EC166 - Comune/provincia di registrazione atto di nascita @ inesistente [Tabella 3 Comuni](https://anpr.readthedocs.io/en/latest/tab_tabella_03___comuni.html);	
+- EC177 - Codice tipo fine legame inesistente sulla tabella di riferimento [Tabella 43   Cessazione unione civile – convivenze](https://anpr.readthedocs.io/en/latest/tab_cessazione_unione_civile___convivenze.html)
 - EN064 - Grado di parentela non più valido;
 - EN242 - Codice tipo tribunale non valido, poichè non previsto in [Tabella 32 Tipo tribunale](https://anpr.readthedocs.io/en/latest/tab_tipo_tribunale.html);
 - EN347 - Codice ISTAT utilizzato corrisponde a un codice di variazione
-
-
->**WARNING NON RISULTANO USATE LE TABELLE**
->
->- **Tabella 21 - Individuazione del comune di iscrizione AIRE**
->- **Tabella 25 - Tipo indirizzo**
->- **Tabella 32 - Tipo tribunale**
->- **Tabella 38 - Tipi cittadinanza**
->**WARNING DA VERIFICARE LE TABELLE**
->
->- **Tabella 33 - Conversione codici AIRE al subentro**
->
->**WARNING TABELLE NON PRESENTI SU DEVELOPERS**
->
->- **Tabella 4 - Toponimi**
->- **Tabella T_Elenco-Consolati**
-
 
 
 ## Precondizione

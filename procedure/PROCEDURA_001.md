@@ -11,6 +11,8 @@ In quanto segue si riporta la procedura suggerita ai Comuni per la gestione dell
 - EA038 - Soggetto con data di nascita non coincidente con quella presente nel *codice fiscale*;
 - EA042 - Soggetto con sesso non coincidente con quella presente nel *codice fiscale*;
 - EA048 - *Codice fiscale* formalmente errato.
+- EAA30 - Soggetto presente in AT con dati anagrafici diversi
+- EAA31 - Soggetto presente in AT con dati anagrafici diversi	
 
 In fase di subentro ANPR segnala i cittadini AIRE che non sono mai entrati in Italia (nel caso di figli di italiani, ma nati all'estero) perché sconosciuto all'Agenzia delle Entrate, ma in questo caso l'anomalia NON può essere sanata perché l'attribuzione del CF deve essere preceduta una procedura di allineamento con gli schedari consolati, prevista dalla legge. Le modifiche vanno fatte solo per i cittadini APR.
 

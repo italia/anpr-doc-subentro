@@ -6,11 +6,13 @@
 
 In quanto segue si riporta la procedura suggerita ai Comuni per la gestione delle anomalie: 
 
-- EN003 - Lo stato del subentro attuale non consente l'invio del file	
-- EN032 - La data di invio del file deve essere compresa tra la data di inizio e la data fine subentro pianificate
-- EN034 - Impossibile inviare altri file per un comune gia' subentrato
-- EN037 - Esiste gia' una precedente fornitura di file attualmente in elaborazione
-- EN040 - Esiste gia' una fornitura con progressivo in stato OK
+- EN003 - Lo stato del subentro attuale non consente l'invio del file;
+- EN032 - La data di invio del file deve essere compresa tra la data di inizio e la data fine subentro pianificate;
+- EN034 - Impossibile inviare altri file per un comune gia' subentrato;
+- EN037 - Esiste gia' una precedente fornitura di file attualmente in elaborazione;
+- EN040 - Esiste gia' una fornitura con progressivo in stato OK;
+- EN041 - Piano di subentro gia' presente per il comune;
+- EN362 - Prima di effettuare l'invio, occorre indicare l'indirizzo di PEC cui recapitare l'esito (funzione Amministrazione).
 
 
 ## Precondizione
